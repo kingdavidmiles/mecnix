@@ -1,12 +1,12 @@
 import React from "react";
-
+import { Outlet, Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
       <div className="bg-primary">
         <nav className="navbar navbar-expand-lg navbar-light bg-light px-5 pt-4 pb-4">
           <div className="container-fluid text-font">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
               Navbar
             </a>
             <button
@@ -31,7 +31,9 @@ const NavBar = () => {
                     <button className="btn ">About Us</button>
                   </li>
                   <li className="nav-item px-5">
-                    <button className="btn ">Careers</button>
+                    <Link to="/career" style={{ textDecoration: "none" }}>
+                      Career
+                    </Link>
                   </li>
                   <button
                     className="btn btn-outline-success pt-2 pb-2 "

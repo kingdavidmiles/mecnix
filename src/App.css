@@ -57,5 +57,37 @@
 .portfolio-card-text {
   position: relative;
   top: 80px;
+}
 
+.career-page-image {
+  padding: 25px;
+  background: url(https://cdn.pixabay.com/photo/2018/01/06/09/25/hijab-3064633_960_720.jpg);
+
+  /* Full height */
+  height: 50rem;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.career-page-image-blur {
+  filter: blur(8px);
+  -webkit-filter: blur(2px);
+  background-color: aliceblue;
+}
+
+.career-card-position{
+  position: relative;
+  top: -7rem;
+}
+.career-text-position{
+  position: relative;
+  top: 2rem;
+}
+.top-left {
+  position: absolute;
+  top: 50px;
+  left: 60px;
 }

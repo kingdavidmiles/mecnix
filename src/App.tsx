@@ -6,9 +6,12 @@ import Service from "./component/Service"
 import PublicRelation from "./component/PublicRelation"
 import Portfolio from "./component/Portfolio";
 import Testimony from "./component/Testimony";
+import NavBar from "./Header/NavBar";
+import Footer from "./component/Footer";
 function App() {
   return (
     <div>
+      <NavBar/>
       <div style={{ background: "#1B2742", color: "white", height: "50rem" }}>
         <div className="row">
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
@@ -73,7 +76,7 @@ function App() {
         <br/>
       </div>
       
-     
+     <Footer/>
     </div>
   );
 }

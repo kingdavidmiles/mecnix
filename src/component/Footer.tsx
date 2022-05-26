@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div style={{ background: "rgb(4 40 101)" }}>
       <div className="col-10 text-center pt-3">
-        <div className="row text-font text-white">
+        <div className="row text-font text-white px-0 mx-0">
           <div className="col-6">
             <p className="display-6 pt-2">Connect with us</p>
           </div>
@@ -44,7 +44,7 @@ const Footer = () => {
 
       <hr style={{ color: "white" }}></hr>
 
-      <div className="row">
+      <div className="row px-0 mx-0">
         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
         <div className="col-12 col-md-10 col-lg-10 col-xl-10">
           <div className=" pt-5">
