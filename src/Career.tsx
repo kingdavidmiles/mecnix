@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import NavBar from "./Header/NavBar";
 import Footer from "./component/Footer";
+import JobOpening from "./component/JobOpening";
 const CareerPage = () => {
   return (
     <div>
@@ -33,13 +34,13 @@ const CareerPage = () => {
                 <div className="  bd-highlight px-2">
                   <i
                     className="bi bi-hexagon-fill"
-                    style={{ fontSize: 60 }}
+                    style={{ fontSize: 60, color:"rgb(250 198 3)" }}
                   ></i>
                 </div>
                 <div className="p-2 flex-fill bd-highlight">
                   <div
                     className="card border-0 "
-                    style={{ background: "yellow", borderRadius: "10px" }}
+                    style={{ background: "rgb(250 198 3)", borderRadius: "10px" }}
                   >
                     <div
                       className="card-body text-center display-6"
@@ -89,14 +90,28 @@ const CareerPage = () => {
                 src="https://cdn.pixabay.com/photo/2017/06/20/22/14/man-2425121_960_720.jpg"
                 className="card-img-top"
                 alt="..."
-                style={{ maxHeight: "auto", borderRadius: "40px 40px 0px 0px" }}
+                style={{
+                  maxHeight: "500px",
+                  borderRadius: "40px 40px 0px 0px",
+                }}
               />
               <div className="top-left">
-                  <div className="card pt-3 pb-3" style={{width:"600px", height:"110px",borderRadius:"10px" }}>
-                      <div className="card-body text-center display-6" style={{ fontWeight: "bolder" }}>
-                          Together @mecnix
-                      </div>
+                <div
+                  className="card pt-3 pb-3 text-white"
+                  style={{
+                    width: "600px",
+                    height: "110px",
+                    borderRadius: "10px",
+                    background:"rgb(2 31 75)"
+                  }}
+                >
+                  <div
+                    className="card-body text-center display-6"
+                    style={{ fontWeight: "bolder" }}
+                  >
+                    Together @mecnix
                   </div>
+                </div>
               </div>
               <div className="card-body">
                 <p style={{ fontSize: 32 }} className="px-lg-5">
@@ -109,6 +124,7 @@ const CareerPage = () => {
           </div>
         </div>
         <div className="col-2 "></div>
+        <JobOpening />
       </div>
       <Footer />
     </div>

@@ -31,8 +31,8 @@ const NavBar = () => {
                     <button className="btn ">About Us</button>
                   </li>
                   <li className="nav-item px-5">
-                    <Link to="/career" style={{ textDecoration: "none" }}>
-                      Career
+                    <Link className="text-dark" to="/career" style={{ textDecoration: "none" }}>
+                      Careers
                     </Link>
                   </li>
                   <button

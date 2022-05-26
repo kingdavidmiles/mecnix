@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Career from "./Career";
+import ApplyPage from "./ApplyPage";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -14,9 +15,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <Router>
     <Routes>
-    <Route path="/career" element={<Career />} />
-      <Route path="/" element={<App />}>
-      </Route>
+      <Route path="/career" element={<Career />} />
+      <Route path="/apply" element={<ApplyPage />} />
+      <Route path="/" element={<App />}></Route>
     </Routes>
   </Router>
 );
