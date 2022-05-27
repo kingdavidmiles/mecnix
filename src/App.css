@@ -138,7 +138,7 @@
     transform: translate(-10rem);
   }
 
-  .banner-text {
+  #banner-text {
     font-style: normal;
     font-weight: 700;
     font-size: 126px;
@@ -147,10 +147,10 @@
 
     color: #fef8f8;
   }
-  .banner-sub-text {
+  #banner-sub-text {
     font-style: normal;
     font-weight: 700;
-    font-size: 76px;
+    font-size: 90px;
     line-height: 100px;
     /* identical to box height */
 

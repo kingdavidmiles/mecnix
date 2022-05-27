@@ -24,8 +24,8 @@ function App() {
           <div className="col-12 col-md-10 col-lg-10 col-xl-10">
             <div className="row container pt-md-5">
               <div className=" col-12 col-md-6 col-lg-6 col-xl-6">
-                <p className=" pt-5  banner-sub-text ">Build. Manage.</p>
-                <p className=" banner-text">PROMOTE.</p>
+                <p className=" pt-5  " id="banner-sub-text">Build. Manage.</p>
+                <p className=" banner-text" id="banner-text">PROMOTE.</p>
 
                 <p className="puplic-relation-text">
                   We are a Strategic Marketing agency. we set new brands in
