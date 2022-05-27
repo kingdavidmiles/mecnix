@@ -61,7 +61,7 @@
 
 .career-page-image {
   padding: 25px;
-  background: url(https://cdn.pixabay.com/photo/2018/01/06/09/25/hijab-3064633_960_720.jpg);
+  background: url(/public/img/career-cover.png.png);
 
   /* Full height */
   height: 50rem;
@@ -78,16 +78,241 @@
   background-color: aliceblue;
 }
 
-.career-card-position{
-  position: relative;
-  top: -7rem;
-}
-.career-text-position{
-  position: relative;
-  top: 2rem;
-}
 .top-left {
   position: absolute;
   top: 50px;
   left: 60px;
+}
+
+@media (min-width: 1200px) {
+  .connect-image-align {
+    position: relative;
+    top: -40px;
+  }
+}
+.service-inner-card {
+  width: 1451px;
+  height: 564px;
+  background: linear-gradient(
+    99.89deg,
+    rgba(33, 151, 242, 0.53) 0%,
+    rgba(0, 11, 15, 0) 100%
+  );
+  box-shadow: 6px 8px 52px 2px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(49px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+}
+
+.puplic-relation-head-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.puplic-relation-head-text2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 61px;
+  line-height: 106%;
+}
+
+.puplic-relation-head-text3 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 106%;
+  /* identical to box height, or 45px */
+
+  color: #002761;
+}
+
+@media (min-width: 1200px) {
+  .testimony-ceo-sub-name {
+    position: relative;
+    transform: translate(-10rem);
+  }
+
+  .banner-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 126px;
+    line-height: 180px;
+    /* identical to box height */
+
+    color: #fef8f8;
+  }
+  .banner-sub-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 100px;
+    /* identical to box height */
+
+    color: #fef8f8;
+  }
+  .puplic-relation-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+  }
+}
+.testimony-ceo-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 50px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.contact-us {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 63px;
+}
+
+.footer-bg {
+  background: url(/public/img/footerBg.png);
+}
+.footer-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.footer-card {
+  box-sizing: border-box;
+
+  width: 308px;
+  height: 190px;
+  left: 1104px;
+  top: 6293px;
+
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 5px 6px 11px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(30px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+}
+
+.figur-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 31px;
+  /* identical to box height */
+
+  text-align: center;
+}
+
+.banner-btn-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #fdc604;
+}
+
+.nav-bar-logo {
+  width: 50%;
+}
+@media (min-width: 1200px) {
+  .banner-image {
+    position: relative;
+    transform: translate(6rem);
+    top: 52px;
+    width: 60rem;
+    height: 700px;
+  }
+}
+
+.career-card {
+  box-sizing: border-box;
+  position: relative;
+  top: -7rem;
+  width: 765px;
+  height: 408px;
+
+  background: rgba(11, 10, 10, 0.1);
+  box-shadow: 27px 16px 58px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(53px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+}
+.career-card-position {
+  position: relative;
+  top: -7rem;
+}
+.career-text-position {
+  position: relative;
+  top: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 124.5%;
+  /* or 87px */
+
+  color: #023a6d;
+}
+
+.career-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 124.5%;
+  /* or 40px */
+
+  color: #666464;
+}
+
+.open-job-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 77px;
+  line-height: 116px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+/* for mobile screens */
+@media (min-width: 400px) {
+  .banner-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+    /* identical to box height */
+
+    color: #fef8f8;
+  }
+
+  .banner-sub-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80px;
+    /* identical to box height */
+
+    color: #fef8f8;
+  }
+  .puplic-relation-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 39px;
+  }
 }

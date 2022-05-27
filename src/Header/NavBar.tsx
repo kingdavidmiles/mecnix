@@ -4,11 +4,14 @@ const NavBar = () => {
   return (
     <>
       <div className="bg-primary">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light px-5 pt-4 pb-4">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light px-5 pt-2 pb-2">
           <div className="container-fluid text-font">
-            <a className="navbar-brand" href="/">
-              Navbar
-            </a>
+           <Link to="/">
+           <img
+              src="/img/navberIcon.png"
+              alt="image"
+              className="nav-bar-logo "
+            /></Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -31,7 +34,11 @@ const NavBar = () => {
                     <button className="btn ">About Us</button>
                   </li>
                   <li className="nav-item px-5">
-                    <Link className="text-dark" to="/career" style={{ textDecoration: "none" }}>
+                    <Link
+                      className="text-dark"
+                      to="/career"
+                      style={{ textDecoration: "none" }}
+                    >
                       Careers
                     </Link>
                   </li>

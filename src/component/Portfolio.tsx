@@ -17,54 +17,26 @@ const Portfolio = () => {
               </h1>
               <div className="row text-font gx-5">
                 <div className="col-3 ">
-                  <div
-                    className="card"
-                    style={{
-                      borderRadius: "10px",
-                      background: "none",
-                      height: "15rem",
-                    }}
-                  >
-                    <div className="card-body portfolio-card-text">image 1</div>
+                  <div className="card-body ">
+                    <img src="/img/porfolio.png" alt="image" />
                   </div>
                 </div>
                 <div className="col-3">
-                  <div
-                    className="card"
-                    style={{
-                      borderRadius: "10px",
-                      background: "none",
-                      height: "15rem",
-                    }}
-                  >
-                    <div className="card-body portfolio-card-text">image 2</div>
+                  <div className="card-body ">
+                    <img src="/img/porfolio2.png" alt="image" />
                   </div>
                 </div>
 
                 <div className="col-3">
-                  <div
-                    className="card"
-                    style={{
-                      borderRadius: "10px",
-                      background: "none",
-                      height: "15rem",
-                    }}
-                  >
-                    <div className="card-body portfolio-card-text">image 3</div>
-                  </div>
+                <div className="card-body ">
+                      <img src="/img/porfolio3.png" alt="image"/>
+                    </div>
                 </div>
 
                 <div className="col-3">
-                  <div
-                    className="card"
-                    style={{
-                      borderRadius: "10px",
-                      background: "none",
-                      height: "15rem",
-                    }}
-                  >
-                    <div className="card-body portfolio-card-text">image 4</div>
-                  </div>
+                <div className="card-body ">
+                      <img src="/img/porfolio4.png" alt="image"/>
+                    </div>
                 </div>
               </div>
             </div>

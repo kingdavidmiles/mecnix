@@ -9,11 +9,11 @@ const Footer = () => {
     { name: "SEO optimization" },
   ];
   return (
-    <div style={{ background: "rgb(4 40 101)" }}>
+    <div  className="footer-bg pb-3">
       <div className="col-10 text-center pt-3">
         <div className="row text-font text-white px-0 mx-0">
           <div className="col-6">
-            <p className="display-6 pt-2">Connect with us</p>
+            <p className="contact-us  pt-2">Connect with us</p>
           </div>
           <div className="col-6 px-xl-5" style={{ textAlign: "right" }}>
             <div>
@@ -42,38 +42,35 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr style={{ color: "white" }}></hr>
 
       <div className="row px-0 mx-0">
         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
         <div className="col-12 col-md-10 col-lg-10 col-xl-10">
           <div className=" pt-5">
-            <div className="text-center">
+            <div className="">
               <div className="row text-font  text-white">
-                <div className="col-4" style={{ textAlign: "left" }}>
+                <div className="col-4 " >
                   <img
-                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                    src="/img/footerIMage.png"
                     className="img-fluid"
                     alt="..."
+                    style={{ width:"70%" }}
                   />
                 </div>
                 <div className="col-4">
-                  <div style={{ textAlign: "left" }}>
+                  <div style={{  }}>
                     <h2>Our Services</h2>
                     {service.map((item, index) => (
                       <div key={index}>
-                        <div className="text-capitalize pt-2">{item.name}</div>
+                        <div className="text-capitalize pt-2 footer-text">{item.name}</div>
                       </div>
                     ))}
                   </div>
                 </div>
                 <div className="col-3">
                   <div
-                    className="card"
-                    style={{
-                      background: "rgb(41 96 152 / 50%)",
-                      borderRadius: "15px",
-                    }}
+                    className="footer-card"
+                   
                   >
                     <div className="card-body" style={{ textAlign: "left" }}>
                       <h3>Contact</h3>

@@ -3,27 +3,22 @@ import "../App.css";
 
 const Testimony = () => {
   return (
-    <div>
-      <div className="row">
+    <div className="">
+      <div className="row px-0 mx-0">
         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
         <div className="col-12 col-md-10 col-lg-10 col-xl-10">
           <div className=" pt-5">
             <div>
-              <h1
-                style={{ fontWeight: "bolder", textAlign: "left" }}
-                className="text-dark display-5 pt-5 pb-2"
-              >
-                Testimonial
-              </h1>
+              <h1 className="text-darkpt-5 pb-2 puplic-relation-head-text">Testimonial</h1>
 
               <div
                 style={{ textAlign: "left" }}
-                className="text-dark text-font  pb-5"
+                className=" pb-5 puplic-relation-text"
               >
                 Get to know about what our client think about us
               </div>
               <div className="card mb-3 border-0">
-                <div className="row g-0">
+                <div className="row g-0 px-0 mx-0">
                   <div className="col-md-1">
                     <div
                       className="card  h-100 "
@@ -32,7 +27,7 @@ const Testimony = () => {
                   </div>
                   <div className="col-md-11">
                     <div className="card-body">
-                      <p className="card-text text-font pt-3 pb-5">
+                      <p className="card-text puplic-relation-text pt-3 pb-5">
                         Patronizing mecnix for caspade's branding and marketing
                         was worth
                         <br></br>
@@ -49,7 +44,7 @@ const Testimony = () => {
               </div>
 
               <div>
-                <div className="row">
+                <div className="row ">
                   <div className="col-md-1">
                     <div
                       className="card h-50 "
@@ -57,6 +52,7 @@ const Testimony = () => {
                         width: "82%",
                         background: "rgb(250 198 3)",
                         border: "none",
+                        height: 20,
                       }}
                     ></div>
                   </div>
@@ -65,8 +61,8 @@ const Testimony = () => {
                       className="card-body px-md-5"
                       style={{ fontWeight: "", textAlign: "right" }}
                     >
-                      <h1 className="text-dark display-5">Emmanuel</h1>
-                      <span>CEO Caspade</span>
+                      <div className="testimony-ceo-name ">Emmanuel</div>
+                      <div className="testimony-ceo-sub-name">CEO Caspade</div>
                     </div>
                   </div>
                 </div>
@@ -77,9 +73,9 @@ const Testimony = () => {
                   alt="100x100"
                   src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
                   data-holder-rendered="true"
-                  style={{ width: "100px", height: "100px", opacity:"0.5" }}
+                  style={{ width: "100px", height: "100px", opacity: "0.5" }}
                 />
-                &nbsp;  &nbsp;
+                &nbsp; &nbsp;
                 <img
                   className="rounded-circle"
                   alt="100x100"
@@ -87,13 +83,13 @@ const Testimony = () => {
                   data-holder-rendered="true"
                   style={{ width: "200px", height: "200px" }}
                 />
-                 &nbsp;  &nbsp;
+                &nbsp; &nbsp;
                 <img
                   className="rounded-circle"
                   alt="100x100"
                   src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
                   data-holder-rendered="true"
-                  style={{ width: "100px", height: "100px",opacity:"0.5" }}
+                  style={{ width: "100px", height: "100px", opacity: "0.5" }}
                 />
               </div>
             </div>

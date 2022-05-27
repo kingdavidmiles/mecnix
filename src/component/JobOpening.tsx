@@ -62,9 +62,9 @@ const JobOpening = () => {
       <div className="row">
         <div className="col-2"></div>
         <div className="col-8">
-          <h1 style={{ fontWeight: "bolder" }} className=" display-5 pt-5 pb-5">
+          <p className=" open-job-title pt-5 pb-5">
             Current Opening
-          </h1>
+          </p>
 
           <div>
             <p
@@ -256,8 +256,8 @@ const JobOpening = () => {
             <div className="row">
               <div className="col-5">
                 <img
-                  src="https://cdn.pixabay.com/photo/2013/07/12/14/07/basketball-147794_960_720.png"
-                  style={{ width: "250px", height: "250px" }}
+                  src="/img/not-found.png"
+                  style={{ width: "100%px", height: "200px" }}
                 />
               </div>
               <div className="col-7">

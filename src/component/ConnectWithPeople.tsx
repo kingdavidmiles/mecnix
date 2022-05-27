@@ -10,27 +10,27 @@ const ConnectWithPeople = () => {
           <div className=" pt-5">
             <div className="text-center">
               <div className="row text-font">
-                <div className="col-4">
+                <div className=" col-12 col-md-4 col-lg-4 col-xl-4">
                   <div>
                     <span className="h1 number-wieght">5</span>
                     <span className="h2 top-plus p-1">+</span>
                   </div>
-                  <p>Years in the space</p>
+                  <p className="figur-text">Years in the space</p>
                 </div>
-                <div className="col-4">
+                <div className="col-12 col-md-4 col-lg-4 col-xl-4">
                   <div>
                     <span className="h1 number-wieght">8</span>
                     <span className="h2 top-plus p-1">+</span>
                   </div>
-                  <p>Project promotede</p>
+                  <p className="figur-text">Project promotede</p>
                 </div>
 
-                <div className="col-4">
+                <div className="col-12 col-md-4 col-lg-4 col-xl-4">
                   <div>
                     <span className="h1 number-wieght">4</span>
                     <span className="h2 top-plus p-1">+</span>
                   </div>
-                  <p>partinership</p>
+                  <p className="figur-text">partinership</p>
                 </div>
               </div>
             </div>
