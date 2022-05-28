@@ -15,25 +15,25 @@ const Portfolio = () => {
               >
                 Portfolio
               </h1>
-              <div className="row text-font gx-5">
-                <div className=" col-12 col-md-3 col-lg-3 col-xl-3">
+              <div className="row text-font gx-5 ">
+                <div className=" col-12 col-md-6 col-lg-6 col-xl-3">
                   <div className="card-body ">
                     <img src="/img/porfolio.png" alt="image" />
                   </div>
-                </div>
-                <div className="col-12 col-md-3 col-lg-3 col-xl-3">
+                </div> 
+                <div className="col-12 col-md-6 col-lg-6 col-xl-3 ">
                   <div className="card-body ">
                     <img src="/img/porfolio2.png" alt="image" />
                   </div>
                 </div>
 
-                <div className="col-12 col-md-3 col-lg-3 col-xl-3">
+                <div className="col-12 col-md-6 col-lg-6 col-xl-3 ">
                 <div className="card-body ">
                       <img src="/img/porfolio3.png" alt="image"/>
                     </div>
                 </div>
 
-                <div className="col-12 col-md-3 col-lg-3 col-xl-3">
+                <div className="col-12 col-md-6 col-lg-6 col-xl-3 ">
                 <div className="card-body ">
                       <img src="/img/porfolio4.png" alt="image"/>
                     </div>

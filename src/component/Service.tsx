@@ -5,13 +5,13 @@ const ConnectWithPeople = () => {
   return (
     <div>
       <div className="row">
-        <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
-        <div className="col-12 col-md-10 col-lg-10 col-xl-10">
+        <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
+        <div className="col-12 col-md-12 col-lg-10 col-xl-10">
           <div className=" pt-5">
             <div className="text-centers">
               <div className="pt-5">
                 <div className="row pt-2 px-md-5 pb-5 ">
-                  <div className="col-12 col-md-8 col-lg-8 col-xl-8 ">
+                  <div className="col-12 col-md-12 col-lg-8 col-xl-8 ">
                     <h1
                       style={{
                         fontWeight: "700",
@@ -38,7 +38,7 @@ const ConnectWithPeople = () => {
                     </div>
                   </div>
 
-                  <div className="col-4 pt-5">
+                  <div className=" col-12 col-md-12 col-lg-4 col-xl-4  pt-5">
                     <div className="px-5">
                       <img src="/img/Group 9.png" alt="image" />
                     </div>
@@ -47,10 +47,10 @@ const ConnectWithPeople = () => {
 
                 <div className="pt-3 service-inner-card ">
                   <div className="pt-5 pb-5">
-                    <div className="row gx-md-5 px-md-5  px-md-0 mx-0 text-font ">
-                      <div className=" col-12 col-md-4 col-lg-4 col-xl-4  ">
-                        <div className="card  service-card" id="service-card">
-                          <div className="card-body">
+                    <div className="row gx-md-5 px-lg-5  px-md-0 mx-0 text-font ">
+                      <div className=" col-12 col-md-12 col-lg-6 col-xl-4  pb-4 ">
+                        <div className="card   service-card" id="service-card">
+                          <div className="card-body ">
                             <div className="pt-3 pb-3">
                               <i
                                 className="bi bi-megaphone"
@@ -87,7 +87,7 @@ const ConnectWithPeople = () => {
                         </div>
                       </div>
                     
-                      <div className="col-12 col-md-4 col-lg-4 col-xl-4 pt-md-0 pt-5n">
+                      <div className="col-12 col-md-12 col-lg-6 col-xl-4 pt-md-0 pt-5">
                         <div className="card  service-card" id="service-card">
                           <div className="card-body">
                             <div className="pt-3 pb-3">
@@ -125,7 +125,7 @@ const ConnectWithPeople = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="col-12 col-md-4 col-lg-4 col-xl-4 pt-md-0 pt-5">
+                      <div className="col-12 col-md-12 col-lg-6 col-xl-4 pt-md-4 pt-5 pt-xl-0">
                         <div className="card service-card" id="service-card">
                           <div className="card-body">
                             <div className="pt-3 pb-3">

@@ -23,7 +23,7 @@ function App() {
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
           <div className="col-12 col-md-10 col-lg-10 col-xl-10">
             <div className="row container pt-md-5 ">
-              <div className=" col-12 col-md-6 col-lg-6 col-xl-6 ">
+              <div className=" col-12 col-md-12 col-lg-12 col-xl-6 ">
                 <p className=" pt-5  banner-sub-text" id="banner-sub-text">
                   Build. Manage.
                 </p>
@@ -49,8 +49,8 @@ function App() {
                   </button>
                 </div>
               </div>
-              <div className="col-12 col-md-6 col-lg-6 col-xl-6 d-none d-md-block d-lg-block d-xl-block">
-                <div>
+              <div className="col-12 col-md-12 col-lg-12 col-xl-6 d-none d-md-none d-lg-none d-xl-block">
+                <div className="">
                   <img
                     src="/img/Mecnix-1.gif"
                     alt="gif image"
@@ -64,12 +64,12 @@ function App() {
         </div>
       </div>
 
-      <div className="px-5 pb-5">
-        <ConnectWithPeople />
+      <div className="px-xl-5 pb-5">
+        <ConnectWithPeople /> 
       </div>
 
-      <div className="px-5 pb-5" style={{ background: "#ECF5FE;" }}>
-        <Years />
+      <div className="px-xl-5 pb-5" style={{ background: "#ECF5FE;" }}>
+        <Years /> 
         <br />
       </div>
 
@@ -83,22 +83,22 @@ function App() {
         <br />
       </div>
 
-      <div className="px-5 pb-5">
-         <PublicRelation />
+      <div className="px-xl-5 pb-5">
+        <PublicRelation />
         <br />
       </div>
 
       <div className="px-5 pb-5" style={{ background: "rgb(255 251 239)" }}>
-        <Portfolio /> 
+        <Portfolio />
         <br />
       </div>
 
       <div className="px-5 pb-5 ">
-        <Testimony /> 
+        <Testimony />
         <br />
       </div>
 
-      <Footer  /> 
+      <Footer />
     </div>
   );
 }

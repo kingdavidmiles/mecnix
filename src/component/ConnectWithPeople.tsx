@@ -4,9 +4,9 @@ import "../App.css";
 const ConnectWithPeople = () => {
   return (
     <div>
-      <div className="row">
-        <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
-        <div className="col-12 col-md-10 col-lg-10 col-xl-10">
+      <div className="row px-0 mx-0">
+        <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
+        <div className="col-12 col-md-12 col-lg-10 col-xl-10">
           <div className=" pt-5">
             <div className="text-center">
               <div className="row text-font">
@@ -35,7 +35,7 @@ const ConnectWithPeople = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
+          <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
         </div>
       </div>
     </div>
