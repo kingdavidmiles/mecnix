@@ -1,10 +1,12 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import NavBarMobile from "./NavBarMoblie";
 const NavBar = () => {
   return (
     <>
       <div className="bg-primary">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light px-5 pt-2 pb-2">
+        <NavBarMobile/>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light px-5 pt-2 pb-2 d-none d-md-block">
           <div className="container-fluid text-font">
            <Link to="/">
            <img

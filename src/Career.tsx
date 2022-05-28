@@ -7,11 +7,11 @@ const CareerPage = () => {
   return (
     <div>
       <NavBar />
-      <div className="career-page-image"> </div>
+      <div className="career-page-image" id="career-page-image"> </div>
       <div className="row px-0 mx-0">
         <div className="col-12 col-md-1 col-lg-2 col-xl-2"></div>
-        <div className="col-8">
-          <div className="row pb-5 gx-5">
+        <div className="col-12 col-md-8 col-lg-8 col-xl-8">
+          <div className="row pb-md-5 gx-5 px-0 mx-0">
             <div className="col-12 col-md-10 col-lg-8 col-xl-8">
               <div
                 className="  career-card"
@@ -29,7 +29,7 @@ const CareerPage = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-12 col-md-4 col-lg-4 col-xl-4 px-lg-5 pt-5">
+            <div className=" col-12 col-md-4 col-lg-4 col-xl-4 px-lg-5 pt-md-5 pt-0">
               <div className="d-flex bd-highlight">
                 <div className="  bd-highlight px-2 pt-2">
                   <img
@@ -71,17 +71,17 @@ const CareerPage = () => {
             </div>
           </div>
           <br></br>
-          <div className="pt-5 pb-5 ">
-            <div className="row">
-              <div className=" col-12 col-md-5 col-lg-5 col-xl-5">
+          <div className="pt-md-5 pb-5 ">
+            <div className="row px-0 mx-0">
+              <div className=" col-12 col-md-5 col-lg-5 col-xl-5 text-center">
                 <img
                   src="/img/Group.png"
                   style={{ width: "200px", height: "200px" }}
                 />
               </div>
-              <div className="col-7">
+              <div className="col-12 col-md-7 col-lg-7 col-xl-7 pt-5">
                 <h1 style={{ fontWeight: "bolder", color: "#023a6d" }}>
-                  Our Mission
+                  Our Missions,
                 </h1>
                 <p className="career-text">
                   We have a new design for a living and working anywhere!. Here
@@ -100,11 +100,11 @@ const CareerPage = () => {
                 className="card-img-top"
                 alt="..."
                 style={{
-                  maxHeight: "500px",
+                  maxHeight: "1000px",
                   borderRadius: "40px 40px 0px 0px",
                 }}
               />
-              <div className="top-left">
+              <div className="top-left d-none d-md-block">
                 <div
                   className="card pt-3 pb-3 text-white"
                   style={{

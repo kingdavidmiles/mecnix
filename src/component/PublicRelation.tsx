@@ -10,7 +10,10 @@ const ConnectWithPeople = () => {
           <div className=" pt-5">
             <div className="text-centers">
               <div className="pt-5">
-                <h1 className="pb-5 puplic-relation-head-text">
+                <h1 className="pb-5 puplic-relation-head-text d-none d-md-block">
+                  Public Relation
+                </h1>
+                <h1 className="pb-5 display-3 d-block d-md-none"  style={{fontWeight:"bolder"}}>
                   Public Relation
                 </h1>
                 <div>
@@ -18,9 +21,10 @@ const ConnectWithPeople = () => {
                     src="/img/Rectangle 20.png"
                     alt="image"
                     className="background-image"
+                    style={{width:"100%"}}
                   />
                 </div>
-                <div className="text-center pt-5 puplic-relation-text">
+                <div className="text-center pt-5 puplic-relation-text ">
                   Excellence with in-built concept and unique products is a
                   kickstart but what's the storyline behind your image out
                   <div>
@@ -34,13 +38,23 @@ const ConnectWithPeople = () => {
           <br />
           <br />
           <br />
-          <div className=" chain-border px-md-5">
+          <div className=" chain-border px-md-5 d-none d-md-block ">
             <div className="pt-5 pb-5">
-              <h1 className="  puplic-relation-head-text2">We  Breathe BLOCKCHAIN</h1>
+              <h1 className="  puplic-relation-head-text2 ">We  Breathe BLOCKCHAIN</h1>
               <p className=" puplic-relation-head-text3">We Build, Manage, and Promote</p>
 
               <div className="pt-5">
-                <img src="/img/Group18.png" alt="image" />
+                <img src="/img/Group18.png" alt="image" style={{width:"100%"}} />
+              </div>
+            </div>
+          </div>
+          <div className="  px-md-5 d-block d-md-none">
+            <div className="pt-5 pb-5">
+              <h1 className="  puplic-relation-head-text2-sm pb-3">We  Breathe BLOCKCHAIN</h1>
+              <p className=" puplic-relation-head-text-sm">We Build, Manage, and Promote</p>
+
+              <div className="pt-5">
+                <img src="/img/Group18.png" alt="image" style={{width:"100%"}} />
               </div>
             </div>
           </div>

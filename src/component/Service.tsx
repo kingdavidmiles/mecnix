@@ -10,8 +10,8 @@ const ConnectWithPeople = () => {
           <div className=" pt-5">
             <div className="text-centers">
               <div className="pt-5">
-                <div className="row pt-2 px-5 pb-5">
-                  <div className="col-8">
+                <div className="row pt-2 px-md-5 pb-5 ">
+                  <div className="col-12 col-md-8 col-lg-8 col-xl-8 ">
                     <h1
                       style={{
                         fontWeight: "700",
@@ -45,20 +45,11 @@ const ConnectWithPeople = () => {
                   </div>
                 </div>
 
-                <div className="pt-3 service-inner-card  ">
+                <div className="pt-3 service-inner-card ">
                   <div className="pt-5 pb-5">
-                    <div className="row gx-5 px-5  px-0 mx-0 text-font">
-                      <div className="col-4 ">
-                        <div
-                          className="card "
-                          style={{
-                            background: "rgb(32 126 198)",
-                            color: "white",
-                            borderRadius: "10px",
-                            width: "378px",
-                            height: "386px",
-                          }}
-                        >
+                    <div className="row gx-md-5 px-md-5  px-md-0 mx-0 text-font ">
+                      <div className=" col-12 col-md-4 col-lg-4 col-xl-4  ">
+                        <div className="card  service-card" id="service-card">
                           <div className="card-body">
                             <div className="pt-3 pb-3">
                               <i
@@ -95,17 +86,9 @@ const ConnectWithPeople = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="col-4 ">
-                        <div
-                          className="card "
-                          style={{
-                            background: "rgb(32 126 198)",
-                            color: "white",
-                            borderRadius: "10px",
-                            width: "378px",
-                            height: "386px",
-                          }}
-                        >
+                    
+                      <div className="col-12 col-md-4 col-lg-4 col-xl-4 pt-5">
+                        <div className="card  service-card" id="service-card">
                           <div className="card-body">
                             <div className="pt-3 pb-3">
                               <i
@@ -142,17 +125,8 @@ const ConnectWithPeople = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="col-4 ">
-                        <div
-                          className="card "
-                          style={{
-                            background: "rgb(32 126 198)",
-                            color: "white",
-                            borderRadius: "10px",
-                            width: "378px",
-                            height: "386px",
-                          }}
-                        >
+                      <div className="col-12 col-md-4 col-lg-4 col-xl-4 pt-5">
+                        <div className="card service-card" id="service-card">
                           <div className="card-body">
                             <div className="pt-3 pb-3">
                               <i

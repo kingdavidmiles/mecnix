@@ -59,25 +59,6 @@
   top: 80px;
 }
 
-.career-page-image {
-  padding: 25px;
-  background: url(/public/img/career-cover.png.png);
-
-  /* Full height */
-  height: 50rem;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.career-page-image-blur {
-  filter: blur(8px);
-  -webkit-filter: blur(2px);
-  background-color: aliceblue;
-}
-
 .top-left {
   position: absolute;
   top: 50px;
@@ -89,20 +70,6 @@
     position: relative;
     top: -40px;
   }
-}
-.service-inner-card {
-  width: 1451px;
-  height: 564px;
-  background: linear-gradient(
-    99.89deg,
-    rgba(33, 151, 242, 0.53) 0%,
-    rgba(0, 11, 15, 0) 100%
-  );
-  box-shadow: 6px 8px 52px 2px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(49px);
-  /* Note: backdrop-filter has minimal browser support */
-
-  border-radius: 30px;
 }
 
 .puplic-relation-head-text {
@@ -121,6 +88,12 @@
   font-size: 61px;
   line-height: 106%;
 }
+.puplic-relation-head-text2-sm {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 120%;
+}
 
 .puplic-relation-head-text3 {
   font-style: normal;
@@ -131,8 +104,38 @@
 
   color: #002761;
 }
+.puplic-relation-head-text-sm {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 106%;
+  /* identical to box height, or 45px */
+
+  color: #002761;
+}
 
 @media (min-width: 1200px) {
+  #service-card {
+    background: rgb(32 126 198);
+    color: white;
+    border-radius: 10px;
+    width: 378px;
+    height: 386px;
+  }
+  .service-inner-card {
+    width: 1451px;
+    height: 564px;
+    background: linear-gradient(
+      99.89deg,
+      rgba(33, 151, 242, 0.53) 0%,
+      rgba(0, 11, 15, 0) 100%
+    );
+    box-shadow: 6px 8px 52px 2px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(49px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+  }
   .testimony-ceo-sub-name {
     position: relative;
     transform: translate(-10rem);
@@ -188,11 +191,13 @@
   font-size: 24px;
   line-height: 36px;
 }
+.align {
+  text-align: center !important;
+}
 
 .footer-card {
   box-sizing: border-box;
 
-  width: 308px;
   height: 190px;
   left: 1104px;
   top: 6293px;
@@ -236,22 +241,34 @@
     width: 60rem;
     height: 700px;
   }
+  .career-card {
+    box-sizing: border-box;
+    position: relative;
+    top: -7rem;
+    width: 765px;
+    height: 408px;
+
+    background: rgba(11, 10, 10, 0.1);
+    box-shadow: 27px 16px 58px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(53px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+  }
+  #career-page-image {
+    padding: 25px;
+    background: url(/public/img/career-cover.png.png);
+
+    /* Full height */
+    height: 50rem;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
-.career-card {
-  box-sizing: border-box;
-  position: relative;
-  top: -7rem;
-  width: 765px;
-  height: 408px;
-
-  background: rgba(11, 10, 10, 0.1);
-  box-shadow: 27px 16px 58px rgba(0, 0, 0, 0.12);
-  backdrop-filter: blur(53px);
-  /* Note: backdrop-filter has minimal browser support */
-
-  border-radius: 30px;
-}
 .career-card-position {
   position: relative;
   top: -7rem;
@@ -290,6 +307,38 @@
 
 /* for mobile screens */
 @media (min-width: 400px) {
+  .career-page-image {
+    padding: 25px;
+    background: url(/public/img/career-cover.png.png);
+
+    /* Full height */
+    height: 30rem;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .career-card {
+    box-sizing: border-box;
+    position: relative;
+    top: -7rem;
+
+    height: 408px;
+
+    background: rgba(11, 10, 10, 0.1);
+    box-shadow: 27px 16px 58px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(53px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+  }
+  .service-card {
+    background-color: rgb(32 126 198) !important;
+    width: 300px;
+    color: white;
+    border-radius: 10px;
+  }
   .banner-text {
     font-style: normal;
     font-weight: 700;

@@ -22,10 +22,14 @@ function App() {
         <div className="row px-0 mx-0">
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
           <div className="col-12 col-md-10 col-lg-10 col-xl-10">
-            <div className="row container pt-md-5">
-              <div className=" col-12 col-md-6 col-lg-6 col-xl-6">
-                <p className=" pt-5  " id="banner-sub-text">Build. Manage.</p>
-                <p className=" banner-text" id="banner-text">PROMOTE.</p>
+            <div className="row container pt-md-5 ">
+              <div className=" col-12 col-md-6 col-lg-6 col-xl-6 ">
+                <p className=" pt-5  banner-sub-text" id="banner-sub-text">
+                  Build. Manage.
+                </p>
+                <p className=" banner-text" id="banner-text">
+                  PROMOTE.
+                </p>
 
                 <p className="puplic-relation-text">
                   We are a Strategic Marketing agency. we set new brands in
@@ -80,21 +84,21 @@ function App() {
       </div>
 
       <div className="px-5 pb-5">
-        <PublicRelation />
+         <PublicRelation />
         <br />
       </div>
 
       <div className="px-5 pb-5" style={{ background: "rgb(255 251 239)" }}>
-        <Portfolio />
+        <Portfolio /> 
         <br />
       </div>
 
       <div className="px-5 pb-5 ">
-        <Testimony />
+        <Testimony /> 
         <br />
       </div>
 
-      <Footer />
+      <Footer  /> 
     </div>
   );
 }
