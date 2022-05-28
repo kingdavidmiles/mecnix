@@ -22,7 +22,7 @@ function App() {
         <div className="row px-0 mx-0">
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
           <div className="col-12 col-md-10 col-lg-10 col-xl-10">
-            <div className="row container pt-md-5 ">
+            <div className="row container pt-md-5  ">
               <div className=" col-12 col-md-12 col-lg-12 col-xl-6 ">
                 <p className=" pt-5  banner-sub-text" id="banner-sub-text">
                   Build. Manage.
@@ -74,7 +74,7 @@ function App() {
       </div>
 
       <div
-        className="px-5 pb-5"
+        className="px-xl-5 pb-5"
         style={{
           background: " linear-gradient(180deg, #017EF1 0%, #5DC5F2 89.6%)",
         }}
@@ -88,12 +88,12 @@ function App() {
         <br />
       </div>
 
-      <div className="px-5 pb-5" style={{ background: "rgb(255 251 239)" }}>
+      <div className="px-xl-5 pb-5" style={{ background: "rgb(255 251 239)" }}>
         <Portfolio />
         <br />
       </div>
 
-      <div className="px-5 pb-5 ">
+      <div className="px-xl-5 pb-5 ">
         <Testimony />
         <br />
       </div>

@@ -302,7 +302,7 @@
 }
 
 /* for mobile screens */
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   .career-page-image {
     padding: 25px;
     background: url(/public/img/career-cover.png.png);
