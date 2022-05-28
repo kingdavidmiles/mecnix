@@ -119,11 +119,8 @@
     background: rgb(32 126 198);
     color: white;
     border-radius: 10px;
-  
   }
   .service-inner-card {
-   
-   
     background: linear-gradient(
       99.89deg,
       rgba(33, 151, 242, 0.53) 0%,
@@ -322,7 +319,6 @@
     box-sizing: border-box;
     position: relative;
     top: -7rem;
-
     height: 408px;
 
     background: rgba(11, 10, 10, 0.1);
@@ -334,7 +330,7 @@
   }
   .service-card {
     background-color: rgb(32 126 198) !important;
-    
+
     color: white;
     border-radius: 10px;
   }
