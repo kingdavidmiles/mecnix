@@ -87,7 +87,7 @@ const ConnectWithPeople = () => {
                         </div>
                       </div>
                     
-                      <div className="col-12 col-md-4 col-lg-4 col-xl-4 pt-5">
+                      <div className="col-12 col-md-4 col-lg-4 col-xl-4 pt-md-0 pt-5">
                         <div className="card  service-card" id="service-card">
                           <div className="card-body">
                             <div className="pt-3 pb-3">
@@ -125,7 +125,7 @@ const ConnectWithPeople = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="col-12 col-md-4 col-lg-4 col-xl-4 pt-5">
+                      <div className="col-12 col-md-4 col-lg-4 col-xl-4 pt-md-0 pt-5">
                         <div className="card service-card" id="service-card">
                           <div className="card-body">
                             <div className="pt-3 pb-3">
