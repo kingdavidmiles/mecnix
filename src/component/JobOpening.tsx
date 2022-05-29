@@ -60,10 +60,9 @@ const JobOpening = () => {
   return (
     <div style={{ background: "rgb(255 251 239)" }}>
       <div className="row px-0 mx-0 ">
-        <div className="col-12 col-md-1 col-lg-2 col-xl-2"></div>
-        <div className="col-12 col-md-10 col-lg-8 col-xl-8">
-          <p className=" open-job-title pt-5 pb-5">Current Opening</p>
-
+        <div className="col-12 col-md-12 col-lg-12 col-xl-2"></div>
+        <div className="col-12 col-md-12 col-lg-12 col-xl-8 px-md-5">
+          <h1 className="pt-5 pb-5">Current Opening</h1>
           <div>
             <p
               style={{
@@ -78,23 +77,23 @@ const JobOpening = () => {
             {marketing.map((market, index) => (
               <div key={index}>
                 <div className="row ">
-                  <div className="col-12">
+                  <div className="col-12 ">
                     <div className="list-group py-3">
                       <div className="" aria-current="true">
                         <div className="d-flex w-100 justify-content-between">
-                          <h5
+                          <div
                             className="mb-1 text-capitalize"
-                            style={{ fontSize: 35 }}
+                            style={{ fontSize: 29 }}
                           >
                             {market.subTitle}
-                          </h5>
+                          </div>
                           <small>
                             <button
                               type="button"
                               className="btn  btn-sm  text-white"
                               style={{
                                 borderRadius: "10px",
-                                fontSize: 30,
+                                fontSize: 25,
                                 background: "rgb(250 198 3)",
                               }}
                             >
@@ -111,7 +110,7 @@ const JobOpening = () => {
                         <div className="mb-1">
                           <div
                             className="d-flex flex-row bd-highlight mb-3 text-capitalize"
-                            style={{ fontSize: 24 }}
+                            style={{ fontSize: 20 }}
                           >
                             <div className=" bd-highlight">{market.time}</div>{" "}
                             &nbsp;
@@ -146,7 +145,7 @@ const JobOpening = () => {
                         <div className="d-flex w-100 justify-content-between">
                           <div
                             className="mb-1 text-capitalize"
-                            style={{ fontSize: 35 }}
+                            style={{ fontSize: 29 }}
                           >
                             {market.subTitle}
                           </div>
@@ -156,7 +155,7 @@ const JobOpening = () => {
                               className="btn  btn-sm  text-white"
                               style={{
                                 borderRadius: "10px",
-                                fontSize: 30,
+                                fontSize: 25,
                                 background: "rgb(250 198 3)",
                               }}
                             >
@@ -173,7 +172,7 @@ const JobOpening = () => {
                         <div className="mb-1">
                           <div
                             className="d-flex flex-row bd-highlight mb-3 text-capitalize"
-                            style={{ fontSize: 24 }}
+                            style={{ fontSize: 20}}
                           >
                             <div className=" bd-highlight">{market.time}</div>{" "}
                             &nbsp;
@@ -206,19 +205,19 @@ const JobOpening = () => {
                     <div className="list-group py-3">
                       <div className="" aria-current="true">
                         <div className="d-flex w-100 justify-content-between">
-                          <h5
+                          <div
                             className="mb-1 text-capitalize"
-                            style={{ fontSize: 35 }}
+                            style={{ fontSize: 29 }}
                           >
                             {market.subTitle}
-                          </h5>
+                          </div>
                           <small>
                             <button
                               type="button"
                               className="btn  btn-sm  text-white"
                               style={{
                                 borderRadius: "10px",
-                                fontSize: 30,
+                                fontSize: 25,
                                 background: "rgb(250 198 3)",
                               }}
                             >
@@ -235,7 +234,7 @@ const JobOpening = () => {
                         <div className="mb-1">
                           <div
                             className="d-flex flex-row bd-highlight mb-3 text-capitalize"
-                            style={{ fontSize: 24 }}
+                            style={{ fontSize: 20 }}
                           >
                             <div className=" bd-highlight">{market.time}</div>{" "}
                             &nbsp;
@@ -259,13 +258,11 @@ const JobOpening = () => {
                 />
               </div>
               <div className="col-12 col-md-7 col-lg-7 col-xl-7">
-                <h1 style={{ fontWeight: "bolder" }}>
-                  Can't find  your match?
-                </h1>
-                <p style={{ fontSize: 32 }}>
+                <h1 style={{ fontWeight: "bolder" }}>Can't find your match?</h1>
+                <p style={{ fontSize: 25 }}>
                   Tell us what you'av got and how you can help
                 </p>
-                <div style={{ fontSize: 32 }} className="text-muted">
+                <div style={{ fontSize: 25 }} className="text-muted">
                   Send Us a mail:{" "}
                   <span style={{ color: "rgb(250 198 3)" }}>
                     mecnix@mecnix.com
@@ -275,7 +272,7 @@ const JobOpening = () => {
             </div>
           </div>
         </div>
-        <div className="col-2"></div>
+        <div className="col-12 col-md-12 col-lg-12 col-xl-2"></div>
       </div>
     </div>
   );

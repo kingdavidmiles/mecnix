@@ -36,16 +36,15 @@ const ConnectWithPeople = () => {
                   </div>
 
                   <div className="col-12 col-md-12 col-lg-12 col-xl-6">
-                    <div className="d-none d-xl-block d-lg-none d-xl-block">
+                    <div className="d-none  d-lg-none d-md-block d-lg-block d-xl-block">
                       <img
                         src="/img/image.svg"
                         alt="image"
                         className="connect-image-align "
-                       
                       />
                     </div>
                     {/* only on sm screens */}
-                    <div className="d-block d-md-block  d-xl-none d-lg-block d-xl-none">
+                    <div className="d-block d-md-none  d-xl-none d-lg-none d-xl-none">
                       <img
                         src="/img/image.svg"
                         alt="image"

@@ -11,32 +11,32 @@ const Portfolio = () => {
             <div className="text-center">
               <h1
                 style={{ fontWeight: "bolder", textAlign: "left" }}
-                className="text-dark display-5 pt-5 pb-5"
+                className="text-dark display-5 pt-5 pb-5 px-5"
               >
                 Portfolio
               </h1>
               <div className="row text-font gx-5 px-0 mx-0">
-                <div className=" col-12 col-md-6 col-lg-6 col-xl-3">
+                <div className=" col-12 col-md-6 col-lg-6 col-xl-3 ">
                   <div className="card-body ">
-                    <img src="/img/porfolio.png" alt="image" style={{width:"100%"}} />
+                    <img src="/img/porfolio.png" alt="image" />
                   </div>
-                </div> 
+                </div>
                 <div className="col-12 col-md-6 col-lg-6 col-xl-3 ">
                   <div className="card-body ">
-                    <img src="/img/porfolio2.png" alt="image"  style={{width:"100%"}}/>
+                    <img src="/img/porfolio2.png" alt="image" />
                   </div>
                 </div>
 
                 <div className="col-12 col-md-6 col-lg-6 col-xl-3 ">
-                <div className="card-body ">
-                      <img src="/img/porfolio3.png" alt="image" style={{width:"100%"}}/>
-                    </div>
+                  <div className="card-body ">
+                    <img src="/img/porfolio3.png" alt="image" />
+                  </div>
                 </div>
 
                 <div className="col-12 col-md-6 col-lg-6 col-xl-3 ">
-                <div className="card-body ">
-                      <img src="/img/porfolio4.png" alt="image" style={{width:"100%"}}/>
-                    </div>
+                  <div className="card-body ">
+                    <img src="/img/porfolio4.png" alt="image" />
+                  </div>
                 </div>
               </div>
             </div>

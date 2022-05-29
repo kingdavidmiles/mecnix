@@ -50,13 +50,13 @@ function App() {
                 </div>
               </div>
               <div className="col-12 col-md-12 col-lg-12 col-xl-6 d-none d-md-none d-lg-none d-xl-block">
-                <div className="">
+                {/* <div className="">
                   <img
                     src="/img/Mecnix-1.gif"
                     alt="gif image"
                     className="banner-image"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -65,16 +65,17 @@ function App() {
       </div>
 
       <div className="px-xl-5 pb-5">
-        <ConnectWithPeople /> 
+        <ConnectWithPeople />
       </div>
 
-      <div className="px-xl-5 pb-5" style={{ background: "#ECF5FE;" }}>
-        <Years /> 
+      <div className="px-xl-5 pb-5" style={{ background: "#ECF5FE" }}>
+        <Years />
         <br />
       </div>
 
       <div
         className="px-xl-5 pb-5"
+        id="service"
         style={{
           background: " linear-gradient(180deg, #017EF1 0%, #5DC5F2 89.6%)",
         }}
@@ -88,7 +89,10 @@ function App() {
         <br />
       </div>
 
-      <div className="px-xl-5 pb-5 postition" style={{ background: "rgb(255 251 239)" }}>
+      <div
+        className="px-xl-5 pb-5 postition"
+        style={{ background: "rgb(255 251 239)" }}
+      >
         <Portfolio />
         <br />
       </div>
@@ -98,9 +102,9 @@ function App() {
         <br />
       </div>
 
-    <div className="postition">
-    <Footer/>
-    </div>
+      <div className="postition">
+        <Footer />
+      </div>
     </div>
   );
 }

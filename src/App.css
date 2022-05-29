@@ -230,13 +230,13 @@
   width: 50%;
 }
 @media (min-width: 1200px) {
-  .banner-image {
+  /* .banner-image {
     position: relative;
     transform: translate(6rem);
     top: 52px;
     width: 60rem;
     height: 700px;
-  }
+  } */
   .career-card {
     box-sizing: border-box;
     position: relative;
@@ -283,8 +283,8 @@
 
 .career-text {
   font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
+ 
+  font-size: 25px;
   line-height: 124.5%;
   /* or 40px */
 
@@ -377,4 +377,16 @@
     line-height: 39px;
     font-style: normal;
   }
+}
+
+.apply-font {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.nav-bar-text{
+  font-weight: bold !important;
+  color: red;
 }
