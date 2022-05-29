@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="col-12 col-md-6">
             <div className="contact-us  pt-2 d-none d-md-block">
-             Connect with ussss
+             Connect with us
             </div>
           </div>
 

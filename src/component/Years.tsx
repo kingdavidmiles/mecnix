@@ -13,7 +13,7 @@ const ConnectWithPeople = () => {
                 <div className="row pt-5 gx-5  px-0 mx-0">
                   <div className=" col-12 col-md-12 col-lg-12 col-xl-6 py-5">
                     <p
-                      className=" text-center d-none d-md-block d-xl-block d-lg-block"
+                      className=" d-none d-md-block d-xl-block d-lg-block"
                       style={{
                         textAlign: "left",
                         fontSize: "51px",
@@ -21,18 +21,16 @@ const ConnectWithPeople = () => {
                         fontStyle: " normal",
                       }}
                     >
-                      Connect with billions of people across the Globe.
+                      Connect with billions of people across the Globe .
                     </p>
                     <p
                       style={{
-                        textAlign: "left",
                         fontSize: "40px",
 
                         fontStyle: " normal",
                       }}
                       className="d-block d-md-none d-xl-none d-lg-none"
                     >
-                      {" "}
                       Connect with billions of people across the Globe.
                     </p>
                   </div>
@@ -43,7 +41,7 @@ const ConnectWithPeople = () => {
                         src="/img/image.svg"
                         alt="image"
                         className="connect-image-align "
-                        style={{ width: "100%" }}
+                       
                       />
                     </div>
                     {/* only on sm screens */}
@@ -52,7 +50,7 @@ const ConnectWithPeople = () => {
                         src="/img/image.svg"
                         alt="image"
                         className="connect-image-align"
-                        style={{ width: "50%" }}
+                        style={{ width: "90%" }}
                       />
                     </div>
                   </div>

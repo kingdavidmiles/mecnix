@@ -4,37 +4,50 @@ import "../App.css";
 const ConnectWithPeople = () => {
   return (
     <div>
-      <div className="row px-0 mx-0">
+      <div className="row px-0 mx-0 ">
         <div className="col-12 col-md-12 col-lg-1 col-xl-1"></div>
         <div className="col-12 col-md-12 col-lg-10 col-xl-10">
           <div className=" pt-5">
             <div className="text-centers">
               <div className="pt-5">
                 <div className="row pt-2 px-md-5 pb-5 ">
-                  <div className="col-12 col-md-12 col-lg-8 col-xl-8 ">
-                    <h1
-                      style={{
-                        fontWeight: "700",
-                        fontSize: "48px",
-                        lineHeight: "72px",
-                        fontStyle: "normal",
-                      }}
-                      className="text-white"
-                    >
-                      Our Service
-                    </h1>
-                    <div
-                      className="text-font text-white"
-                      style={{
-                        fontWeight: "300",
-                        fontSize: "26px",
-                        lineHeight: "39px",
-                        fontStyle: "normal",
-                      }}
-                    >
-                      @mecnix, we set new brand in motion, revive
-                      existingexisting ones. and create fresh customer's
-                      experience
+                  <div className={`col-12 col-md-12 col-lg-8 col-xl-8`}>
+                    <div className="d-none d-md-none d-lg-block d-xl-block">
+                      <h1
+                        style={{
+                          fontWeight: "700",
+                          fontSize: "48px",
+                          lineHeight: "72px",
+                          fontStyle: "normal",
+                        }}
+                        className="text-white "
+                      >
+                        Our Service
+                      </h1>
+                      <div className="text-font text-white text-center-content">
+                        @mecnix, we set new brand in motion, revive
+                        existingexisting ones. and create fresh customer's
+                        experience
+                      </div>
+                    </div>
+
+                    <div className="d-block d-md-block d-lg-none d-xl-none text-center">
+                      <h1
+                        style={{
+                          fontWeight: "700",
+                          fontSize: "48px",
+                          lineHeight: "72px",
+                          fontStyle: "normal",
+                        }}
+                        className="text-white "
+                      >
+                        Our Service
+                      </h1>
+                      <div className="text-font text-white text-center-content">
+                        @mecnix, we set new brand in motion, revive
+                        existingexisting ones. and create fresh customer's
+                        experience
+                      </div>
                     </div>
                   </div>
 
@@ -86,7 +99,7 @@ const ConnectWithPeople = () => {
                           </div>
                         </div>
                       </div>
-                    
+
                       <div className="col-12 col-md-12 col-lg-12 col-xl-4 pt-md-0 pt-5">
                         <div className="card  service-card" id="service-card">
                           <div className="card-body">

@@ -9,7 +9,9 @@ const Testimony = () => {
         <div className="col-12 col-md-10 col-lg-10 col-xl-10">
           <div className=" pt-5">
             <div>
-              <h1 className="text-darkpt-5 pb-2 puplic-relation-head-text">Testimonial</h1>
+              <h1 className="text-darkpt-5 pb-2 puplic-relation-head-text">
+                Testimonial
+              </h1>
 
               <div
                 style={{ textAlign: "left" }}
@@ -27,7 +29,7 @@ const Testimony = () => {
                   </div>
                   <div className="col-md-11">
                     <div className="card-body">
-                      <p className="card-text puplic-relation-text pt-3 pb-5">
+                      <p className="card-text puplic-relation-text pt-3 pb-xl-5">
                         Patronizing mecnix for caspade's branding and marketing
                         was worth
                         <br></br>
@@ -56,18 +58,23 @@ const Testimony = () => {
                       }}
                     ></div>
                   </div>
-                  <div className="col-md-11">
+                  <div className="col-md-11 col-12">
                     <div
-                      className="card-body px-md-5"
+                      className="card-body px-md-5  d-none d-md-none d-lg-none d-xl-block"
                       style={{ fontWeight: "", textAlign: "right" }}
                     >
+                      <div className="testimony-ceo-name ">Emmanuel</div>
+                      <div className="testimony-ceo-sub-name">CEO Caspade</div>
+                    </div>
+
+                    <div className="card-body px-md-5  d-block d-md-block d-lg-block d-xl-none">
                       <div className="testimony-ceo-name ">Emmanuel</div>
                       <div className="testimony-ceo-sub-name">CEO Caspade</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="text-center">
+              <div className="text-center  d-none d-md-none d-lg-none d-xl-block">
                 <img
                   className="rounded-circle "
                   alt="100x100"
@@ -92,6 +99,33 @@ const Testimony = () => {
                   style={{ width: "100px", height: "100px", opacity: "0.5" }}
                 />
               </div>
+              {/* on small devices */}
+              <div className="text-center d-block d-md-block d-lg-block d-xl-none ">
+                <img
+                  className="rounded-circle "
+                  alt="100x100"
+                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                  data-holder-rendered="true"
+                  style={{ width: "80px", height: "80px", opacity: "0.5" }}
+                />
+                &nbsp; &nbsp;
+                <img
+                  className="rounded-circle"
+                  alt="100x100"
+                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                  data-holder-rendered="true"
+                  style={{ width: "100px", height: "100px" }}
+                />
+                &nbsp; &nbsp;
+                <img
+                  className="rounded-circle"
+                  alt="100x100"
+                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                  data-holder-rendered="true"
+                  style={{ width: "80px", height: "80px", opacity: "0.5" }}
+                />
+              </div>
+              {/* end here */}
             </div>
           </div>
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>

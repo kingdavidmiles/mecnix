@@ -38,7 +38,7 @@ const ConnectWithPeople = () => {
           <br />
           <br />
           <br />
-          <div className=" chain-border px-md-5 d-none d-md-block ">
+          <div className=" chain-border px-md-5 d-none d-md-block postition-public">
             <div className="pt-5 pb-5">
               <h1 className="  puplic-relation-head-text2 ">We  Breathe BLOCKCHAIN</h1>
               <p className=" puplic-relation-head-text3">We Build, Manage, and Promote</p>
@@ -48,7 +48,7 @@ const ConnectWithPeople = () => {
               </div>
             </div>
           </div>
-          <div className="  px-md-5 d-block d-md-none">
+          <div className="  px-md-5 d-block d-md-none text-center">
             <div className="pt-5 pb-5">
               <h1 className="  puplic-relation-head-text2-sm pb-3">We  Breathe BLOCKCHAIN</h1>
               <p className=" puplic-relation-head-text-sm">We Build, Manage, and Promote</p>

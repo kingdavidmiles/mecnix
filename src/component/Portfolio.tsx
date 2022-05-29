@@ -18,24 +18,24 @@ const Portfolio = () => {
               <div className="row text-font gx-5 px-0 mx-0">
                 <div className=" col-12 col-md-6 col-lg-6 col-xl-3">
                   <div className="card-body ">
-                    <img src="/img/porfolio.png" alt="image" />
+                    <img src="/img/porfolio.png" alt="image" style={{width:"100%"}} />
                   </div>
                 </div> 
                 <div className="col-12 col-md-6 col-lg-6 col-xl-3 ">
                   <div className="card-body ">
-                    <img src="/img/porfolio2.png" alt="image" />
+                    <img src="/img/porfolio2.png" alt="image"  style={{width:"100%"}}/>
                   </div>
                 </div>
 
                 <div className="col-12 col-md-6 col-lg-6 col-xl-3 ">
                 <div className="card-body ">
-                      <img src="/img/porfolio3.png" alt="image"/>
+                      <img src="/img/porfolio3.png" alt="image" style={{width:"100%"}}/>
                     </div>
                 </div>
 
                 <div className="col-12 col-md-6 col-lg-6 col-xl-3 ">
                 <div className="card-body ">
-                      <img src="/img/porfolio4.png" alt="image"/>
+                      <img src="/img/porfolio4.png" alt="image" style={{width:"100%"}}/>
                     </div>
                 </div>
               </div>

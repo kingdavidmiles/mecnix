@@ -83,22 +83,24 @@ function App() {
         <br />
       </div>
 
-      <div className="px-xl-5 pb-5">
+      <div className="px-xl-5 pb-5 postition">
         <PublicRelation />
         <br />
       </div>
 
-      <div className="px-xl-5 pb-5" style={{ background: "rgb(255 251 239)" }}>
+      <div className="px-xl-5 pb-5 postition" style={{ background: "rgb(255 251 239)" }}>
         <Portfolio />
         <br />
       </div>
 
-      <div className="px-xl-5 pb-5 ">
+      <div className="px-xl-5 pb-5 postition">
         <Testimony />
         <br />
       </div>
 
-      <Footer />
+    <div className="postition">
+    <Footer/>
+    </div>
     </div>
   );
 }
