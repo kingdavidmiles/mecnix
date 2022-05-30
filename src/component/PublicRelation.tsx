@@ -48,15 +48,17 @@ const ConnectWithPeople = () => {
               </div>
             </div>
           </div>
-          <div className="  px-md-5 d-block d-md-none text-center">
-            <div className="pt-5 pb-5">
+          <div className=" card px-md-5 d-block d-md-none text-center " style={{borderRadius:"15px", borderColor:"black"}}>
+          <div className="card-body">
+          <div className="pt-5 pb-5">
               <h1 className="  puplic-relation-head-text2-sm pb-3">We  Breathe BLOCKCHAIN</h1>
               <p className=" puplic-relation-head-text-sm">We Build, Manage, and Promote</p>
 
-              <div className="pt-5">
+              <div className="pt-3">
                 <img src="/img/Group18.png" alt="image" style={{width:"100%"}} />
               </div>
             </div>
+          </div>
           </div>
         </div>
         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>

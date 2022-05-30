@@ -91,7 +91,7 @@
 .puplic-relation-head-text2-sm {
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 24px;
   line-height: 120%;
 }
 
@@ -107,7 +107,7 @@
 .puplic-relation-head-text-sm {
   font-style: normal;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 106%;
   /* identical to box height, or 45px */
 
@@ -140,7 +140,7 @@
   #banner-text {
     font-style: normal;
     font-weight: 700;
-    font-size: 126px;
+    font-size: 80px;
     line-height: 180px;
     /* identical to box height */
 
@@ -241,8 +241,8 @@
     box-sizing: border-box;
     position: relative;
     top: -7rem;
-    width: 765px;
-    height: 408px;
+    /* width: 765px;
+    height: 408px; */
 
     background: rgba(11, 10, 10, 0.1);
     box-shadow: 27px 16px 58px rgba(0, 0, 0, 0.12);

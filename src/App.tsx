@@ -68,7 +68,7 @@ function App() {
         <ConnectWithPeople />
       </div>
 
-      <div className="px-xl-5 pb-5" style={{ background: "#ECF5FE" }}>
+      <div className=" pb-5" style={{ background: "#ECF5FE" }}>
         <Years />
         <br />
       </div>
@@ -90,7 +90,7 @@ function App() {
       </div>
 
       <div
-        className="px-xl-5 pb-5 postition"
+        className=" pb-5 postition"
         style={{ background: "rgb(255 251 239)" }}
       >
         <Portfolio />

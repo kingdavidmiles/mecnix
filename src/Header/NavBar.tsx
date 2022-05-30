@@ -32,7 +32,11 @@ const NavBar = () => {
               <form className="d-flex">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item px-5 ">
-                    <ReactScroll to="service" spy={true}  className="btn nav-bar-text">
+                    <ReactScroll
+                      to="service"
+                      spy={true}
+                      className="btn nav-bar-text"
+                    >
                       Service
                     </ReactScroll>
                   </li>
@@ -49,11 +53,11 @@ const NavBar = () => {
                     </Link>
                   </li>
                   <button
-                    className="btn btn-outline-success pt-2 pb-2 nav-bar-text "
+                    className="btn btn-outline text-white pt-2 pb-2 nav-bar-text "
                     style={{
                       borderRadius: "10px",
-                      borderColor: "#FDC604",
-                      color: "#FDC604",
+                    
+                      backgroundColor: "#158df1",
                     }}
                   >
                     Contact Us

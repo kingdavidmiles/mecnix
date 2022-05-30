@@ -11,7 +11,20 @@ const ConnectWithPeople = () => {
             <div className="text-centers">
               <div className="pt-5">
                 <div className="row pt-2 px-md-5 pb-5 ">
-                  <div className={`col-12 col-md-12 col-lg-8 col-xl-8`}>
+                  {/* show on mobile screen only */}
+                  <h1
+                    style={{
+                      fontWeight: "700",
+                      fontSize: "48px",
+                      lineHeight: "72px",
+                      fontStyle: "normal",
+                    }}
+                    className="text-white d-block d-md-block d-lg-none d-xl-none text-center"
+                  >
+                    Our Service
+                  </h1>
+                  {/* show on mobile screen only  End*/}
+                  <div className={`col-6 col-md-12 col-lg-8 col-xl-8`}>
                     <div className="d-none d-md-none d-lg-block d-xl-block">
                       <h1
                         style={{
@@ -30,20 +43,9 @@ const ConnectWithPeople = () => {
                         experience
                       </div>
                     </div>
-
+                    {/* show on mobile screen only */}
                     <div className="d-block d-md-block d-lg-none d-xl-none text-center">
-                      <h1
-                        style={{
-                          fontWeight: "700",
-                          fontSize: "48px",
-                          lineHeight: "72px",
-                          fontStyle: "normal",
-                        }}
-                        className="text-white "
-                      >
-                        Our Service
-                      </h1>
-                      <div className="text-font text-white text-center-content">
+                      <div className="text-font text-white">
                         @mecnix, we set new brand in motion, revive
                         existingexisting ones. and create fresh customer's
                         experience
@@ -51,9 +53,13 @@ const ConnectWithPeople = () => {
                     </div>
                   </div>
 
-                  <div className=" col-12 col-md-12 col-lg-4 col-xl-4  pt-5">
-                    <div className="px-5 text-center">
-                      <img src="/img/Group 9.png" alt="image" />
+                  <div className=" col-6 col-md-12 col-lg-4 col-xl-4  pt-xl-5 pt-4">
+                    <div className="px-1 px-xl-5 text-center">
+                      <img
+                        src="/img/Group 9.png"
+                        alt="image"
+                        style={{ width: "100%" }}
+                      />
                     </div>
                   </div>
                 </div>

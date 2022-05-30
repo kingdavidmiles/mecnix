@@ -7,9 +7,7 @@ const CareerPage = () => {
   return (
     <div>
       <NavBar />
-      <div className="career-page-image" id="career-page-image">
-        {" "}
-      </div>
+      <div className="career-page-image" id="career-page-image"></div>
       <div className="row px-0 mx-0">
         <div className="col-12 col-md-12 col-lg-12 col-xl-2"></div>
         <div className="col-12 col-md-12 col-lg-12 col-xl-8 pb-5">
@@ -22,7 +20,7 @@ const CareerPage = () => {
                 <div className="card-body">
                   <div className="">
                     <h1
-                      className="display-3 career-text-position p-5"
+                      className=" display-6 career-text-position p-5"
                       style={{ fontWeight: "bolder" }}
                     >
                       Live and work from anywhere
@@ -33,14 +31,14 @@ const CareerPage = () => {
             </div>
             <div className=" col-12 col-md-12 col-lg-12 col-xl-4 pt-xl-5 pt-0">
               <div className="d-flex bd-highlight">
-                <div className="  bd-highlight px-2 pt-2">
+                <div className="  bd-highlight px-2 pt-1">
                   <img
                     src="/img/Vector.png"
                     alt="image"
-                    style={{ width: "80%" }}
+                    style={{ width: "60%" }}
                   />
                 </div>
-                <div className="p-2 flex-fill bd-highlight">
+                <div className="p-xl-0 flex-fill bd-highlight">
                   <div
                     className="card border-0 "
                     style={{
@@ -49,7 +47,7 @@ const CareerPage = () => {
                     }}
                   >
                     <div
-                      className="card-body text-center display-6"
+                      className="card-body text-center text-font"
                       style={{ fontWeight: "bolder" }}
                     >
                       Explore

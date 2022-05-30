@@ -54,11 +54,10 @@ const NavBarMobile = () => {
                     </Link>
                   </li>
                   <button
-                    className="btn btn-outline-success pt-2 pb-2  nav-bar-text "
+                    className="btn btn-outline text-white pt-2 pb-2  nav-bar-text "
                     style={{
                       borderRadius: "10px",
-                      borderColor: "#FDC604",
-                      color: "#FDC604",
+                      backgroundColor: "#158df1",
                     }}
                   >
                     Contact Us
