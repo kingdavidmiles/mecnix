@@ -4,7 +4,7 @@ import "../App.css";
 const Portfolio = () => {
   return (
     <div>
-      <div className="row px-0 mx-0">
+      <div className="row mx-0">
         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
         <div className="col-12 col-md-10 col-lg-10 col-xl-10">
           <div className=" pt-5">
@@ -41,7 +41,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
+        
         </div>
       </div>
     </div>

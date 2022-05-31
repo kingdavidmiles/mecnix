@@ -1,7 +1,36 @@
 import React from "react";
 import "../App.css";
-
+import Slider from "react-slick";
 const Testimony = () => {
+  const settings = {
+    className: "center px-4",
+    centerMode: true,
+    slidesToShow: 3,
+    focusOnSelect: true,
+    centerPadding: "4px",
+    useCSS: true,
+    speed: 500,
+  };
+  const largScreen = {
+    className: "center",
+    centerMode: true,
+    slidesToShow: 3,
+    focusOnSelect: true,
+    centerPadding: "1px",
+    useCSS: true,
+    speed: 500,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
+  };
   return (
     <div className="">
       <div className="row px-0 mx-0">
@@ -74,58 +103,91 @@ const Testimony = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-center  d-none d-md-none d-lg-none d-xl-block">
-                <img
-                  className="rounded-circle "
-                  alt="100x100"
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                  data-holder-rendered="true"
-                  style={{ width: "100px", height: "100px", opacity: "0.5" }}
-                />
-                &nbsp; &nbsp;
-                <img
-                  className="rounded-circle"
-                  alt="100x100"
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                  data-holder-rendered="true"
-                  style={{ width: "200px", height: "200px" }}
-                />
-                &nbsp; &nbsp;
-                <img
-                  className="rounded-circle"
-                  alt="100x100"
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                  data-holder-rendered="true"
-                  style={{ width: "100px", height: "100px", opacity: "0.5" }}
-                />
-              </div>
               {/* on small devices */}
-              <div className="text-center d-block d-md-block d-lg-block d-xl-none ">
-                <img
-                  className="rounded-circle "
-                  alt="100x100"
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                  data-holder-rendered="true"
-                  style={{ width: "80px", height: "80px", opacity: "0.5" }}
-                />
-                &nbsp; &nbsp;
-                <img
-                  className="rounded-circle"
-                  alt="100x100"
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                  data-holder-rendered="true"
-                  style={{ width: "100px", height: "100px" }}
-                />
-                &nbsp; &nbsp;
-                <img
-                  className="rounded-circle"
-                  alt="100x100"
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                  data-holder-rendered="true"
-                  style={{ width: "80px", height: "80px", opacity: "0.5" }}
-                />
+              <Slider
+                {...settings}
+                className="p-3 d-block d-md-block d-lg-block d-xl-none"
+              >
+                <div>
+                  <img
+                    className="rounded-circle p-1"
+                    alt="100x100"
+                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                    data-holder-rendered="true"
+                    style={{ width: "100%" }}
+                  />
+                </div>
+                <div>
+                  <img
+                    className="rounded-circle p-1"
+                    alt="100x100"
+                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                    data-holder-rendered="true"
+                    style={{ width: "100%" }}
+                  />
+                </div>{" "}
+                <div>
+                  <img
+                    className="rounded-circle p-1"
+                    alt="100x100"
+                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                    data-holder-rendered="true"
+                    style={{ width: "100%" }}
+                  />
+                </div>
+                <div>
+                  <img
+                    className="rounded-circle p-1"
+                    alt="100x100"
+                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                    data-holder-rendered="true"
+                    style={{ width: "100%" }}
+                  />
+                </div>
+              </Slider>
+              {/* on small devices End */}
+
+              <div className="row d-none d-md-none d-lg-none d-xl-block pt-5">
+                <div className="col-1"></div>
+                <div className="col-12 ">
+                  <Slider {...largScreen} className="px-xl-2">
+                    <div>
+                      <img
+                        className="rounded-circle "
+                        alt="100x100"
+                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                        data-holder-rendered="true"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        className="rounded-circle "
+                        alt="100x100"
+                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                        data-holder-rendered="true"
+                      />
+                    </div>{" "}
+                    <div>
+                      <img
+                        className="rounded-circle "
+                        alt="100x100"
+                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                        data-holder-rendered="true"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        className="rounded-circle "
+                        alt="100x100"
+                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                        data-holder-rendered="true"
+                      />
+                    </div>
+                  </Slider>
+                  {/* end here */}
+                </div>
+                <div className="col-1"></div>
               </div>
-              {/* end here */}
             </div>
           </div>
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>

@@ -58,7 +58,7 @@ const ConnectWithPeople = () => {
                       <img
                         src="/img/Group 9.png"
                         alt="image"
-                        style={{ width: "100%" }}
+                        
                       />
                     </div>
                   </div>
