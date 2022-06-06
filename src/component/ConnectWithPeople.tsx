@@ -22,7 +22,7 @@ const ConnectWithPeople = () => {
                     <span className="h1 number-wieght">8</span>
                     <span className="h2 top-plus p-1">+</span>
                   </div>
-                  <p className="figur-text">Project promotede</p>
+                  <p className="figur-text">Project Promoted</p>
                 </div>
 
                 <div className="col-12 col-md-4 col-lg-4 col-xl-4">
@@ -30,7 +30,7 @@ const ConnectWithPeople = () => {
                     <span className="h1 number-wieght">4</span>
                     <span className="h2 top-plus p-1">+</span>
                   </div>
-                  <p className="figur-text">partinership</p>
+                  <p className="figur-text">Partnership</p>
                 </div>
               </div>
             </div>

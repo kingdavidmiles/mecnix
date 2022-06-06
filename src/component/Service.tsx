@@ -29,7 +29,7 @@ const ConnectWithPeople = () => {
                       <h1
                         style={{
                           fontWeight: "700",
-                          fontSize: "48px",
+                          fontSize: "40px",
                           lineHeight: "72px",
                           fontStyle: "normal",
                         }}
@@ -97,7 +97,7 @@ const ConnectWithPeople = () => {
                                 textAlign: "justify",
                               }}
                             >
-                              we have first hand knowledge on top trends and
+                              We have first hand knowledge on top trends and
                               leverage our expertise on conversations, and shape
                               leadership with our content distribution methods.
                               you are the hype.
@@ -125,7 +125,7 @@ const ConnectWithPeople = () => {
                                 textAlign: "justify",
                               }}
                             >
-                              Content Marketing
+                              SEO Optimization 
                             </div>
                             <div
                               style={{
@@ -136,10 +136,10 @@ const ConnectWithPeople = () => {
                                 textAlign: "justify",
                               }}
                             >
-                              we have first hand knowledge on top trends and
-                              leverage our expertise on conversations, and shape
-                              leadership with our content distribution methods.
-                              you are the hype.
+                              Search Engine Optimization is not just keywords. With skilled concept, 
+                              we propose a unique SEO approach specifically for your business. 
+                              We give your content high relevant keywords, and help produce SEO-optimised 
+                              content for your blog.
                             </div>
                           </div>
                         </div>
@@ -163,7 +163,7 @@ const ConnectWithPeople = () => {
                                 textAlign: "justify",
                               }}
                             >
-                              Content Marketing
+                              Community Growth
                             </div>
                             <div
                               style={{
@@ -174,10 +174,10 @@ const ConnectWithPeople = () => {
                                 textAlign: "justify",
                               }}
                             >
-                              we have first hand knowledge on top trends and
-                              leverage our expertise on conversations, and shape
-                              leadership with our content distribution methods.
-                              you are the hype.
+                              We locate your target audience and roll them in, 
+                              making sure they stick around. It's our reason for organic 
+                              conversations on Reddit, Twitter, Telegram, 4chan and other 
+                              social media handles, as well as top Cryptocurrency-related forums.
                             </div>
                           </div>
                         </div>

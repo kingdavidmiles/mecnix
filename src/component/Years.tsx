@@ -16,7 +16,7 @@ const ConnectWithPeople = () => {
                       className=" d-none d-md-block d-xl-block d-lg-block"
                       style={{
                         textAlign: "left",
-                        fontSize: "30px",
+                        fontSize: "28px",
                         lineHeight: "140%",
                         fontStyle: " normal",
                       }}

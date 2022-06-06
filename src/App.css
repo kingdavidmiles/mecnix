@@ -8,7 +8,7 @@
 .number-wieght {
   font-style: normal;
   font-weight: 700 !important;
-  font-size: 69px !important;
+  font-size: 40px !important;
 }
 .text-size {
   font-style: normal;
@@ -48,7 +48,7 @@
 }
 
 .text-font {
-  font-size: 20px;
+  font-size: 16px;
 }
 .color {
   border-radius: 15px;
@@ -112,7 +112,7 @@
   /* identical to box height, or 45px */
 
   color: #002761;
-}
+} 
 
 @media (min-width: 1200px) {
   #service-card {
@@ -147,6 +147,7 @@
     color: #fef8f8;
   }
   #banner-sub-text {
+    margin-top: 50px;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -155,11 +156,17 @@
 
     color: #fef8f8;
   }
+  .banner-image{
+    width: 130%;
+    height: 150%;
+    margin-top: 150px;
+  }
   .puplic-relation-text {
     font-style: normal;
     font-weight: 300;
     font-size: 26px;
-    line-height: 29px;
+    margin-top: 40px;
+    line-height: 39px;
   }
 }
 .testimony-ceo-name {
@@ -209,7 +216,7 @@
 .figur-text {
   font-style: normal;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 31px;
   /* identical to box height */
 

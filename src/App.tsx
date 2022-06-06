@@ -16,7 +16,7 @@ function App() {
         style={{
           background: "rgba(1, 14, 45, 0.9)",
           color: "white",
-          height: "50rem",
+          height: "40rem",
         }}
       >
         <div className="row px-0 mx-0">
@@ -50,13 +50,13 @@ function App() {
                 </div>
               </div>
               <div className="col-12 col-md-12 col-lg-12 col-xl-6 d-none d-md-none d-lg-none d-xl-block">
-                {/* <div className="">
+                <div className="">
                   <img
                     src="/img/Mecnix-1.gif"
                     alt="gif image"
                     className="banner-image"
                   />
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
