@@ -10,15 +10,15 @@ const ConnectWithPeople = () => {
           <div className=" pt-5">
             <div className="text-centers">
               <div className="pt-5">
-                <h1 className="pb-5 puplic-relation-head-text d-none d-md-block">
+                <h3 className="pb-5 puplic-relation-head-text d-none d-md-block">
                   Public Relation
-                </h1>
-                <h1
-                  className="pb-5 display-3 d-block d-md-none"
+                </h3>
+                <h3
+                  className="pb-3 display-3 d-block d-md-none"
                   style={{ fontWeight: "bolder" }}
                 >
                   Public Relation
-                </h1>
+                </h3>
                 <div>
                   <img
                     src="/img/Rectangle 20.png"
@@ -36,12 +36,9 @@ const ConnectWithPeople = () => {
               </div>
             </div>
           </div>
-          <br />
-          <br />
-          <br />
-          <div className=" chain-border px-md-5 d-none d-md-block postition-public">
+          <div className=" chain-border px-md-4 d-none pt-3 d-md-block postition-public">
             <div className="pt-5 pb-5">
-              <h1 className="  puplic-relation-head-text2 ">
+              <h1 className="puplic-relation-head-text2 ">
                 We Breathe BLOCKCHAIN
               </h1>
               <p className=" puplic-relation-head-text3">

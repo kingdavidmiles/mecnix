@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
                 <div className="col-12 col-md-4 col-lg-4  col-xl-4 py-5 py-md-0">
                   <div style={{}}>
-                    <h2>Our Services</h2>
+                    <h3>Our Services</h3>
                     {service.map((item, index) => (
                       <div key={index}>
                         <div className="text-capitalize pt-2 footer-text">

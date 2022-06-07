@@ -74,10 +74,10 @@ function App() {
       </div>
 
       <div
-        className="px-xl-5 pb-5"
+        className="px-xl-2 pb-5"
         id="service"
         style={{
-          background: " linear-gradient(180deg, #017EF1 0%, #5DC5F2 89.6%)",
+          background: " linear-gradient(180deg, #017EF1 0%, #5DC5F2 79.6%)",
         }}
       >
         <Service />

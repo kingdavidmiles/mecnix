@@ -43,7 +43,7 @@ const NavBar = () => {
                   <li className="nav-item px-5">
                     <button className="btn nav-bar-text">About Us</button>
                   </li>
-                  <li className="nav-item px-5 nav-bar-text">
+                  <li className="nav-item px-5 pt-2 nav-bar-text">
                     <Link
                       className="text-dark"
                       to="/career"
@@ -53,11 +53,11 @@ const NavBar = () => {
                     </Link>
                   </li>
                   <button
-                    className="btn btn-outline text-white pt-2 pb-2 nav-bar-text "
+                    className="btn btn-outline banner-btn-text pt-2 pb-2  "
                     style={{
                       borderRadius: "10px",
-                    
-                      backgroundColor: "#158df1",
+                      borderColor: "#FDC604",
+                      color: "#FDC604",
                     }}
                   >
                     Contact Us

@@ -66,7 +66,7 @@ const ConnectWithPeople = () => {
 
                 <div className="pt-3 service-inner-card ">
                   <div className="pt-5 pb-5">
-                    <div className="row gx-md-5 px-lg-5  px-md-0 mx-0 text-font ">
+                    <div className="row gx-md-5 px-lg-3  px-md-0 mx-0 text-font ">
                       <div className=" col-12 col-md-12 col-lg-12 col-xl-4  pb-4 ">
                         <div className="card   service-card" id="service-card">
                           <div className="card-body ">
@@ -80,7 +80,7 @@ const ConnectWithPeople = () => {
                               className="pb-4"
                               style={{
                                 fontWeight: "400",
-                                fontSize: "24px",
+                                fontSize: "22px",
                                 lineHeight: "36px",
                                 fontStyle: "normal",
                                 textAlign: "justify",
@@ -91,7 +91,7 @@ const ConnectWithPeople = () => {
                             <div
                               style={{
                                 fontWeight: "300",
-                                fontSize: "20px",
+                                fontSize: "18px",
                                 lineHeight: "30px",
                                 fontStyle: "normal",
                                 textAlign: "justify",
@@ -119,7 +119,7 @@ const ConnectWithPeople = () => {
                               className="pb-4"
                               style={{
                                 fontWeight: "400",
-                                fontSize: "24px",
+                                fontSize: "22px",
                                 lineHeight: "36px",
                                 fontStyle: "normal",
                                 textAlign: "justify",
@@ -130,7 +130,7 @@ const ConnectWithPeople = () => {
                             <div
                               style={{
                                 fontWeight: "300",
-                                fontSize: "20px",
+                                fontSize: "18px",
                                 lineHeight: "30px",
                                 fontStyle: "normal",
                                 textAlign: "justify",
@@ -157,7 +157,7 @@ const ConnectWithPeople = () => {
                               className="pb-4"
                               style={{
                                 fontWeight: "400",
-                                fontSize: "24px",
+                                fontSize: "22px",
                                 lineHeight: "36px",
                                 fontStyle: "normal",
                                 textAlign: "justify",
@@ -168,7 +168,7 @@ const ConnectWithPeople = () => {
                             <div
                               style={{
                                 fontWeight: "300",
-                                fontSize: "20px",
+                                fontSize: "18px",
                                 lineHeight: "30px",
                                 fontStyle: "normal",
                                 textAlign: "justify",
