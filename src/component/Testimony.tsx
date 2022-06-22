@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import Slider from "react-slick";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 const Testimony = () => {
   const settings = {
     className: "center px-4",
@@ -104,90 +105,94 @@ const Testimony = () => {
                 </div>
               </div>
               {/* on small devices */}
-              <Slider
-                {...settings}
-                className="p-3 d-block d-md-block d-lg-block d-xl-none"
-              >
-                <div>
-                  <img
-                    className="rounded-circle p-1"
-                    alt="100x100"
-                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                    data-holder-rendered="true"
-                    style={{ width: "100%" }}
-                  />
-                </div>
-                <div>
-                  <img
-                    className="rounded-circle p-1"
-                    alt="100x100"
-                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                    data-holder-rendered="true"
-                    style={{ width: "100%" }}
-                  />
-                </div>{" "}
-                <div>
-                  <img
-                    className="rounded-circle p-1"
-                    alt="100x100"
-                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                    data-holder-rendered="true"
-                    style={{ width: "100%" }}
-                  />
-                </div>
-                <div>
-                  <img
-                    className="rounded-circle p-1"
-                    alt="100x100"
-                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                    data-holder-rendered="true"
-                    style={{ width: "100%" }}
-                  />
-                </div>
-              </Slider>
+              <AnimationOnScroll animateIn="animate__bounceIn">
+                <Slider
+                  {...settings}
+                  className="p-3 d-block d-md-block d-lg-block d-xl-none"
+                >
+                  <div>
+                    <img
+                      className="rounded-circle p-1"
+                      alt="100x100"
+                      src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                      data-holder-rendered="true"
+                      style={{ width: "100%" }}
+                    />
+                  </div>
+                  <div>
+                    <img
+                      className="rounded-circle p-1"
+                      alt="100x100"
+                      src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                      data-holder-rendered="true"
+                      style={{ width: "100%" }}
+                    />
+                  </div>{" "}
+                  <div>
+                    <img
+                      className="rounded-circle p-1"
+                      alt="100x100"
+                      src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                      data-holder-rendered="true"
+                      style={{ width: "100%" }}
+                    />
+                  </div>
+                  <div>
+                    <img
+                      className="rounded-circle p-1"
+                      alt="100x100"
+                      src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                      data-holder-rendered="true"
+                      style={{ width: "100%" }}
+                    />
+                  </div>
+                </Slider>
+              </AnimationOnScroll>
               {/* on small devices End */}
 
-              <div className="row d-none d-md-none d-lg-none d-xl-block pt-5">
-                <div className="col-1"></div>
-                <div className="col-12 ">
-                  <Slider {...largScreen} className="px-xl-2">
-                    <div>
-                      <img
-                        className="rounded-circle "
-                        alt="100x100"
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                        data-holder-rendered="true"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        className="rounded-circle "
-                        alt="100x100"
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                        data-holder-rendered="true"
-                      />
-                    </div>{" "}
-                    <div>
-                      <img
-                        className="rounded-circle "
-                        alt="100x100"
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                        data-holder-rendered="true"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        className="rounded-circle "
-                        alt="100x100"
-                        src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
-                        data-holder-rendered="true"
-                      />
-                    </div>
-                  </Slider>
-                  {/* end here */}
+              <AnimationOnScroll animateIn="animate__bounceIn">
+                <div className="row d-none d-md-none d-lg-none d-xl-block pt-5">
+                  <div className="col-1"></div>
+                  <div className="col-12 ">
+                    <Slider {...largScreen} className="px-xl-2">
+                      <div>
+                        <img
+                          className="rounded-circle "
+                          alt="100x100"
+                          src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                          data-holder-rendered="true"
+                        />
+                      </div>
+                      <div>
+                        <img
+                          className="rounded-circle "
+                          alt="100x100"
+                          src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                          data-holder-rendered="true"
+                        />
+                      </div>{" "}
+                      <div>
+                        <img
+                          className="rounded-circle "
+                          alt="100x100"
+                          src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                          data-holder-rendered="true"
+                        />
+                      </div>
+                      <div>
+                        <img
+                          className="rounded-circle "
+                          alt="100x100"
+                          src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+                          data-holder-rendered="true"
+                        />
+                      </div>
+                    </Slider>
+                    {/* end here */}
+                  </div>
+                  <div className="col-1"></div>
                 </div>
-                <div className="col-1"></div>
-              </div>
+              </AnimationOnScroll>
             </div>
           </div>
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>

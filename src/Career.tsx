@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./Header/NavBar";
 import Footer from "./component/Footer";
 import JobOpening from "./component/JobOpening";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 const CareerPage = () => {
   return (
     <div>
@@ -58,85 +59,96 @@ const CareerPage = () => {
             </div>
           </div>
 
-          <div className="pt-5 pb-5">
-            <div>
-              <h1 style={{ fontWeight: "bolder", color: "#023a6d" }}>
-                Working from Home?
-              </h1>
-              <p className="career-text">
-                We have a new design for living and working anywhere!. Here at
-                mecnix we have provided the necessary facilities you need to
-                work from the comfort of your home
-              </p>
-            </div>
-          </div>
-          <br></br>
-          <div className="pt-md-5 pb-5 ">
-            <div className="row px-0 mx-0">
-              <div className=" col-12 col-md-12 col-lg-12 col-xl-5 text-center pt-xl-5">
-                <img
-                  src="/img/Group.png"
-                  style={{ width: "200px", height: "200px" }}
-                />
-              </div>
-              <div className="col-12 col-md-12 col-lg-12 col-xl-7 pt-5">
+          <AnimationOnScroll animateIn="animate__bounceIn">
+            <div className="pt-5 pb-5">
+              <div>
                 <h1 style={{ fontWeight: "bolder", color: "#023a6d" }}>
-                  Our Missions
+                  Working from Home?
                 </h1>
                 <p className="career-text">
-                  Setting new brands in motion is one of our core drive in
-                  mecnix, but we’re not limited to that as we revive existing
-                  ones, create a fresh customer's experiences and also in the
-                  space of building a sustainable blockchain
+                  We have a new design for living and working anywhere!. Here at
+                  mecnix we have provided the necessary facilities you need to
+                  work from the comfort of your home
                 </p>
               </div>
             </div>
-          </div>
+          </AnimationOnScroll>
 
           <br></br>
-          <div className="pt-5 pb-5">
-            <div className="card" style={{ borderRadius: "44px" }}>
-              <img
-                src="/img/unsplash_Cecb0_8Hx-o.png"
-                className="card-img-top"
-                alt="..."
-                style={{
-                  maxHeight: "1000px",
-                  borderRadius: "40px 40px 0px 0px",
-                }}
-              />
-              <div className="top-left d-none d-md-none d-lg-block d-xl-block">
-                <div
-                  className="card pt-3 pb-3 text-white"
-                  style={{
-                    width: "600px",
-                    height: "110px",
-                    borderRadius: "10px",
-                    background: "rgb(2 31 75)",
-                  }}
-                >
-                  <div
-                    className="card-body text-center display-6"
-                    style={{ fontWeight: "bolder" }}
-                  >
-                    Together @mecnix
-                  </div>
+          <AnimationOnScroll animateIn="animate__bounceIn">
+            <div className="pt-md-5 pb-5 ">
+              <div className="row px-0 mx-0">
+                <div className=" col-12 col-md-12 col-lg-12 col-xl-5 text-center pt-xl-5">
+                  <img
+                    src="/img/Group.png"
+                    style={{ width: "200px", height: "200px" }}
+                  />
+                </div>
+                <div className="col-12 col-md-12 col-lg-12 col-xl-7 pt-5">
+                  <h1 style={{ fontWeight: "bolder", color: "#023a6d" }}>
+                    Our Missions
+                  </h1>
+                  <p className="career-text">
+                    Setting new brands in motion is one of our core drive in
+                    mecnix, but we’re not limited to that as we revive existing
+                    ones, create a fresh customer's experiences and also in the
+                    space of building a sustainable blockchain
+                  </p>
                 </div>
               </div>
-              <div className="card-body">
-                <p className="px-lg-5  career-text">
-                  e’re United with our Community, to create a world where anyone
-                  can belong anywhere......... there’s creativity in
-                  interactions and we leverage our youthfulness.
-                </p>
+            </div>
+          </AnimationOnScroll>
+
+          <br></br>
+          <AnimationOnScroll animateIn="animate__bounceIn">
+            <div className="pt-5 pb-5">
+              <div className="card" style={{ borderRadius: "44px" }}>
+                <img
+                  src="/img/unsplash_Cecb0_8Hx-o.png"
+                  className="card-img-top"
+                  alt="..."
+                  style={{
+                    maxHeight: "1000px",
+                    borderRadius: "40px 40px 0px 0px",
+                  }}
+                />
+                <div className="top-left d-none d-md-none d-lg-block d-xl-block">
+                  <div
+                    className="card pt-3 pb-3 text-white"
+                    style={{
+                      width: "600px",
+                      height: "110px",
+                      borderRadius: "10px",
+                      background: "rgb(2 31 75)",
+                    }}
+                  >
+                    <div
+                      className="card-body text-center display-6"
+                      style={{ fontWeight: "bolder" }}
+                    >
+                      Together @mecnix
+                    </div>
+                  </div>
+                </div>
+                <div className="card-body">
+                  <p className="px-lg-5  career-text">
+                    e’re United with our Community, to create a world where
+                    anyone can belong anywhere......... there’s creativity in
+                    interactions and we leverage our youthfulness.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </AnimationOnScroll>
         </div>
         <div className="col-12 col-md-12 col-lg-2 col-xl-2"></div>
-        <JobOpening />
+        <AnimationOnScroll animateIn="animate__bounceIn">
+          <JobOpening />
+        </AnimationOnScroll>
       </div>
-      <Footer />
+      <AnimationOnScroll animateIn="animate__bounceIn">
+        <Footer />
+      </AnimationOnScroll>
     </div>
   );
 };

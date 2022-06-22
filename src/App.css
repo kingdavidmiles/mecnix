@@ -396,3 +396,7 @@
   font-weight: bold !important;
   color: red;
 }
+.banner-left-image {
+  position: relative;
+  top: -4rem;
+}

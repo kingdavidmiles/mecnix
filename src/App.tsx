@@ -8,6 +8,7 @@ import Portfolio from "./component/Portfolio";
 import Testimony from "./component/Testimony";
 import NavBar from "./Header/NavBar";
 import Footer from "./component/Footer";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 function App() {
   return (
     <div>
@@ -50,7 +51,7 @@ function App() {
                 </div>
               </div>
               <div className="col-12 col-md-12 col-lg-12 col-xl-6 d-none d-md-none d-lg-none d-xl-block">
-                <div className="">
+                <div className="banner-left-image">
                   <img
                     src="/img/Mecnix-1.gif"
                     alt="gif image"
@@ -63,48 +64,59 @@ function App() {
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
         </div>
       </div>
+      <AnimationOnScroll animateIn="animate__flipInY">
+        <div className="px-xl-5 pb-5">
+          <ConnectWithPeople />
+        </div>
+      </AnimationOnScroll>
 
-      <div className="px-xl-5 pb-5">
-        <ConnectWithPeople />
-      </div>
+      <AnimationOnScroll animateIn="animate__bounceIn">
+        <div className=" pb-5" style={{ background: "#ECF5FE" }}>
+          <Years />
+          <br />
+        </div>
+      </AnimationOnScroll>
 
-      <div className=" pb-5" style={{ background: "#ECF5FE" }}>
-        <Years />
-        <br />
-      </div>
-
-      <div
-        className="px-xl-2 pb-5"
-        id="service"
-        style={{
-          background: " linear-gradient(180deg, #017EF1 0%, #5DC5F2 79.6%)",
-        }}
-      >
-        <Service />
-        <br />
-      </div>
+      <AnimationOnScroll animateIn="animate__bounceIn">
+        <div
+          className="px-xl-2 pb-5"
+          id="service"
+          style={{
+            background: " linear-gradient(180deg, #017EF1 0%, #5DC5F2 79.6%)",
+          }}
+        >
+          <Service />
+          <br />
+        </div>
+      </AnimationOnScroll>
 
       <div className="px-xl-5 pb-5 postition">
         <PublicRelation />
         <br />
       </div>
 
-      <div
-        className=" pb-5 postition"
-        style={{ background: "rgb(255 251 239)" }}
-      >
-        <Portfolio />
-        <br />
-      </div>
+      <AnimationOnScroll animateIn="animate__bounceIn">
+        <div
+          className=" pb-5 postition"
+          style={{ background: "rgb(255 251 239)" }}
+        >
+          <Portfolio />
+          <br />
+        </div>
+      </AnimationOnScroll>
 
-      <div className="px-xl-5 pb-5 postition">
-        <Testimony />
-        <br />
-      </div>
+      <AnimationOnScroll animateIn="animate__bounceIn">
+        <div className="px-xl-5 pb-5 postition">
+          <Testimony />
+          <br />
+        </div>
+      </AnimationOnScroll>
 
-      <div className="postition">
-        <Footer />
-      </div>
+      <AnimationOnScroll animateIn="animate__bounceIn">
+        <div className="postition">
+          <Footer />
+        </div>
+      </AnimationOnScroll>
     </div>
   );
 }

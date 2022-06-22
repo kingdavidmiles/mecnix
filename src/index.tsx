@@ -9,11 +9,9 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/js/bootstrap.bundle";
-
 import "slick-carousel/slick/slick.css";
-
 import "slick-carousel/slick/slick-theme.css";
-
+import "animate.css/animate.min.css";
 import "./custom.scss";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
