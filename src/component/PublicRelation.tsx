@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const PublicRelation = () => {
   return (
@@ -8,7 +7,6 @@ const PublicRelation = () => {
       <div className="row px-0 mx-0">
         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
         <div className="col-12 col-md-10 col-lg-10 col-xl-10">
-          <AnimationOnScroll animateIn="animate__bounceIn">
             <div className=" pt-5">
               <div className="text-centers">
                 <div className="pt-5">
@@ -37,8 +35,6 @@ const PublicRelation = () => {
                 </div>
               </div>
             </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll animateIn="animate__bounceIn">
             <div className=" chain-border px-md-4 d-none pt-3 d-md-block postition-public">
               <div className="pt-5 pb-5">
                 <h1 className="puplic-relation-head-text2 ">
@@ -80,7 +76,6 @@ const PublicRelation = () => {
                 </div>
               </div>
             </div>
-          </AnimationOnScroll>
         </div>
         <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
       </div>

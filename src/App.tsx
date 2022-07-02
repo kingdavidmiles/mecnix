@@ -8,7 +8,6 @@ import Portfolio from "./component/Portfolio";
 import Testimony from "./component/Testimony";
 import NavBar from "./Header/NavBar";
 import Footer from "./component/Footer";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 function App() {
   return (
     <div>
@@ -64,20 +63,20 @@ function App() {
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>
         </div>
       </div>
-      <AnimationOnScroll animateIn="animate__flipInY">
+     
         <div className="px-xl-5 pb-5">
           <ConnectWithPeople />
         </div>
-      </AnimationOnScroll>
+      
 
-      <AnimationOnScroll animateIn="animate__bounceIn">
+      
         <div className=" pb-5" style={{ background: "#ECF5FE" }}>
           <Years />
           <br />
         </div>
-      </AnimationOnScroll>
+      
 
-      <AnimationOnScroll animateIn="animate__bounceIn">
+      
         <div
           className="px-xl-2 pb-5"
           id="service"
@@ -88,14 +87,14 @@ function App() {
           <Service />
           <br />
         </div>
-      </AnimationOnScroll>
+      
 
       <div className="px-xl-5 pb-5 postition">
         <PublicRelation />
         <br />
       </div>
 
-      <AnimationOnScroll animateIn="animate__bounceIn">
+
         <div
           className=" pb-5 postition"
           style={{ background: "rgb(255 251 239)" }}
@@ -103,20 +102,19 @@ function App() {
           <Portfolio />
           <br />
         </div>
-      </AnimationOnScroll>
+     
 
-      <AnimationOnScroll animateIn="animate__bounceIn">
+     
         <div className="px-xl-5 pb-5 postition">
           <Testimony />
           <br />
         </div>
-      </AnimationOnScroll>
+     
 
-      <AnimationOnScroll animateIn="animate__bounceIn">
+      
         <div className="postition">
           <Footer />
         </div>
-      </AnimationOnScroll>
     </div>
   );
 }
