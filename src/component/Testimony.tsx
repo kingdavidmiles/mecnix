@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import Slider from "react-slick";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 const Testimony = () => {
   const settings = {
     className: "center px-4",
@@ -105,7 +104,6 @@ const Testimony = () => {
                 </div>
               </div>
               {/* on small devices */}
-              <AnimationOnScroll animateIn="animate__bounceIn">
                 <Slider
                   {...settings}
                   className="p-3 d-block d-md-block d-lg-block d-xl-none"
@@ -147,10 +145,8 @@ const Testimony = () => {
                     />
                   </div>
                 </Slider>
-              </AnimationOnScroll>
               {/* on small devices End */}
 
-              <AnimationOnScroll animateIn="animate__bounceIn">
                 <div className="row d-none d-md-none d-lg-none d-xl-block pt-5">
                   <div className="col-1"></div>
                   <div className="col-12 ">
@@ -192,7 +188,6 @@ const Testimony = () => {
                   </div>
                   <div className="col-1"></div>
                 </div>
-              </AnimationOnScroll>
             </div>
           </div>
           <div className="col-12 col-md-1 col-lg-1 col-xl-1"></div>

@@ -3,7 +3,6 @@ import "./App.css";
 import NavBar from "./Header/NavBar";
 import Footer from "./component/Footer";
 import JobOpening from "./component/JobOpening";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 const CareerPage = () => {
   return (
     <div>
@@ -16,7 +15,7 @@ const CareerPage = () => {
             <div className="col-12 col-md-12 col-lg-12 col-xl-8">
               <div
                 className="  career-card"
-                style={{ height: "300px", borderRadius: "10px" }}
+                style={{ height: "250px", borderRadius: "10px" }}
               >
                 <div className="card-body">
                   <div className="">
@@ -59,7 +58,6 @@ const CareerPage = () => {
             </div>
           </div>
 
-          <AnimationOnScroll animateIn="animate__bounceIn">
             <div className="pt-5 pb-5">
               <div>
                 <h1 style={{ fontWeight: "bolder", color: "#023a6d" }}>
@@ -72,10 +70,8 @@ const CareerPage = () => {
                 </p>
               </div>
             </div>
-          </AnimationOnScroll>
 
           <br></br>
-          <AnimationOnScroll animateIn="animate__bounceIn">
             <div className="pt-md-5 pb-5 ">
               <div className="row px-0 mx-0">
                 <div className=" col-12 col-md-12 col-lg-12 col-xl-5 text-center pt-xl-5">
@@ -97,10 +93,8 @@ const CareerPage = () => {
                 </div>
               </div>
             </div>
-          </AnimationOnScroll>
 
           <br></br>
-          <AnimationOnScroll animateIn="animate__bounceIn">
             <div className="pt-5 pb-5">
               <div className="card" style={{ borderRadius: "44px" }}>
                 <img
@@ -116,8 +110,8 @@ const CareerPage = () => {
                   <div
                     className="card pt-3 pb-3 text-white"
                     style={{
-                      width: "600px",
-                      height: "110px",
+                      width: "500px",
+                      height: "90px",
                       borderRadius: "10px",
                       background: "rgb(2 31 75)",
                     }}
@@ -139,16 +133,11 @@ const CareerPage = () => {
                 </div>
               </div>
             </div>
-          </AnimationOnScroll>
         </div>
         <div className="col-12 col-md-12 col-lg-2 col-xl-2"></div>
-        <AnimationOnScroll animateIn="animate__bounceIn">
           <JobOpening />
-        </AnimationOnScroll>
       </div>
-      <AnimationOnScroll animateIn="animate__bounceIn">
         <Footer />
-      </AnimationOnScroll>
     </div>
   );
 };

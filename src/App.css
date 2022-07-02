@@ -13,7 +13,7 @@
 .text-size {
   font-style: normal;
   font-weight: 700 !important;
-  font-size: 76px !important;
+  font-size: 70px !important;
 }
 .text-size-xl {
   font-style: normal;
@@ -326,7 +326,7 @@
     box-sizing: border-box;
     position: relative;
     top: -7rem;
-    height: 408px;
+    height: px;
 
     background: rgba(11, 10, 10, 0.1);
     box-shadow: 27px 16px 58px rgba(0, 0, 0, 0.12);
@@ -344,7 +344,7 @@
   .banner-text {
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 90px;
     /* identical to box height */
 
@@ -354,7 +354,7 @@
   .banner-sub-text {
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 80px;
     /* identical to box height */
 
@@ -399,4 +399,18 @@
 .banner-left-image {
   position: relative;
   top: -4rem;
+}
+
+#banner-btn-text{
+  color: #fff;
+  border-radius: 1.4em;
+  border-color: #FDC604;
+  padding: 8px 20px;
+  color: #FDC604,
+} 
+
+
+#banner-btn-text:hover{
+  background: #FDC604;
+  color: #fff;
 }

@@ -37,13 +37,9 @@ function App() {
                   experiences.
                 </p>
                 <div className="pt-4">
-                  <button
+                  <button id="banner-btn-text"
                     className="btn  btn-lg  banner-btn-text"
-                    style={{
-                      borderRadius: "10px",
-                      borderColor: "#FDC604",
-                      color: "#FDC604",
-                    }}
+                    
                   >
                     Send a Request
                   </button>
